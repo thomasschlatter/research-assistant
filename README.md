@@ -20,6 +20,10 @@ Open Command Prompt with administrative privileges. This ensures that you can in
 If you haven't installed `virtualenv` yet, you can install it using pip:
 
 ```bash
+cd backend
+```
+
+```bash
 python -m venv multiagentresearchassistantenv
 ```
 
@@ -29,10 +33,6 @@ python -m venv multiagentresearchassistantenv
 
 ### Start the backend
 
-    ```bash
-    cd backend
-    ```
-
-    ```bash
-    flask run
-    ```
+```bash
+flask run
+```
