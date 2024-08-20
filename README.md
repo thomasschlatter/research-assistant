@@ -11,28 +11,25 @@ Make sure you have the following installed before proceeding:
 
 ## Steps
 
-### 1. Open Command Prompt (cmd)
-
-Open Command Prompt with administrative privileges. This ensures that you can install packages globally.
-
-### 2. Install Virtual Environment (if not already installed)
+### 1. Install virtual environment on Windows (cmd)
 
 If you haven't installed `virtualenv` yet, you can install it using pip:
 
-```bash
+```cmd
 cd backend
 ```
 
-```bash
+```cmd
 python -m venv multiagentresearchassistantenv
 ```
 
-```bash
+```cmd
 .\multiagentresearchassistantenv\Scripts\activate
 ```
 
 ### Start the backend
 
-```bash
+```cmd
+cd backend
 flask run
 ```
