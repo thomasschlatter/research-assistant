@@ -2,6 +2,12 @@
 
 # environment
 /backend/multiagentresearchassistantenv
+/multiagentresearchassistantenv
+
+# pycache
+/backend/components/__pycache__
+/backend/constants/__pycache__
+/backend/__pycache__
 
 # dependencies
 /node_modules

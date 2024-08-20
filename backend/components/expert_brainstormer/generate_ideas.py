@@ -3,10 +3,14 @@ import os
 import os.path as osp
 import time
 from typing import List, Dict, Union
-
+import ollama
+from ollama import Client
 import requests
 import backoff
-from constants.prompts_brainstormer import idea_first_prompt, idea_reflection_prompt
+from constants.prompts_brainstormer import idea_first_prompt, idea_reflection_prompt, novelty_system_msg, novelty_prompt
+from constants.apis import S2_API_KEY
+from components.llm import get_response_from_llm
+from extraction import extract_json_between_markers
 
 # GENERATE IDEAS
 def generate_ideas(
@@ -351,11 +355,9 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model",
         type=str,
-        default="gpt-4o-2024-05-13",
+        default="llama3.1-8b",
         choices=[
-            "claude-3-5-sonnet-20240620",
-            "gpt-4o-2024-05-13",
-            "deepseek-coder-v2-0724",
+            "llama3.1-8b"
             "llama3.1-405b",
         ],
         help="Model to use for AI Scientist.",
@@ -372,38 +374,10 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    # Create client
-    if args.model == "claude-3-5-sonnet-20240620":
-        import anthropic
+    print(f"Using OpenAI API with {args.model}.")
+    client_model = "llama3.1"
+    client = Client(host='http://localhost:11434')
 
-        print(f"Using Anthropic API with model {args.model}.")
-        client_model = "claude-3-5-sonnet-20240620"
-        client = anthropic.Anthropic()
-    elif args.model == "gpt-4o-2024-05-13" or args.model == "hybrid":
-        import openai
-
-        print(f"Using OpenAI API with model {args.model}.")
-        client_model = "gpt-4o-2024-05-13"
-        client = openai.OpenAI()
-    elif args.model == "deepseek-coder-v2-0724":
-        import openai
-
-        print(f"Using OpenAI API with {args.model}.")
-        client_model = "deepseek-coder-v2-0724"
-        client = openai.OpenAI(
-            api_key=os.environ["DEEPSEEK_API_KEY"], base_url="https://api.deepseek.com"
-        )
-    elif args.model == "llama3.1-405b":
-        import openai
-
-        print(f"Using OpenAI API with {args.model}.")
-        client_model = "meta-llama/llama-3.1-405b-instruct"
-        client = openai.OpenAI(
-            api_key=os.environ["OPENROUTER_API_KEY"],
-            base_url="https://openrouter.ai/api/v1",
-        )
-    else:
-        raise ValueError(f"Model {args.model} not supported.")
 
     base_dir = osp.join("templates", args.experiment)
     results_dir = osp.join("results", args.experiment)

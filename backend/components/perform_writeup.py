@@ -4,9 +4,9 @@ import os.path as osp
 import shutil
 import subprocess
 from typing import Optional, Tuple
-from components.generate_ideas import search_for_papers
+from components.expert_brainstormer.generate_ideas import search_for_papers
 from components.llm import get_response_from_llm, extract_json_between_markers
-from backend.constants.prompts_writer import per_section_tips, citation_first_prompt, citation_system_msg, refinement_prompt, second_refinement_prompt
+from constants.prompts_writer import per_section_tips, citation_first_prompt, citation_system_msg, refinement_prompt, second_refinement_prompt
 import re
 import json
 

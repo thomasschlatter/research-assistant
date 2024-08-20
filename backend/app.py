@@ -1,14 +1,12 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS 
-from components.generate_ideas import generate_ideas, check_idea_novelty
+from components.expert_brainstormer.generate_ideas import generate_ideas, check_idea_novelty
 from components.extraction import extract_json_between_markers
 from components.tool_calling import tool_calling
 from components.llm import get_response_from_llm
 from constants.prompts_brainstormer import idea_first_prompt, idea_reflection_prompt
 import os.path as osp
 import json
-
-import ollama
 from ollama import Client
 
 app = Flask(__name__)
@@ -42,15 +40,13 @@ def get_ideas():
         idea_str_archive.append(json.dumps(seed_idea))
 
     with open(osp.join(base_dir, "linguistics_experiment_data.csv"), "r") as f:
-        code = f.read()
+        experiment_data = f.read()
 
     with open(osp.join(base_dir, "prompt.json"), "r") as f:
         prompt = json.load(f)
 
     idea_system_prompt = prompt["system"]
 
-    client_model = "meta-llama/llama-3.1-405b-instruct"
-        
     client = Client(host='http://localhost:11434')
 
     for _ in range(max_num_generations):
@@ -64,12 +60,11 @@ def get_ideas():
             text, msg_history = get_response_from_llm(
                 idea_first_prompt.format(
                     task_description=prompt["task_description"],
-                    code=code,
+                    experiment_data=experiment_data,
                     prev_ideas_string=prev_ideas_string,
                     num_reflections=num_reflections,
                 ),
                 client=client,
-                model=client_model,
                 system_message=idea_system_prompt,
                 msg_history=msg_history,
             )
@@ -87,7 +82,6 @@ def get_ideas():
                             current_round=j + 2, num_reflections=num_reflections
                         ),
                         client=client,
-                        model=client_model,
                         system_message=idea_system_prompt,
                         msg_history=msg_history,
                     )
@@ -116,37 +110,6 @@ def get_ideas():
         json.dump(ideas, f, indent=4)
 
     return ideas
-
-
-
-
-
-    response = ollama.chat(
-        model=MODEL,
-        messages=messages,
-        tools=[expression_evaluator_tool, weather_tool, wikipedia_tool],
-    )
-
-    
-    ideas = generate_ideas(
-        base_dir,
-        client=client,
-        model=client_model,
-        skip_generation=args.skip_idea_generation,
-        max_num_generations=args.num_ideas,
-        num_reflections=NUM_REFLECTIONS,
-    )
-    ideas = check_idea_novelty(
-        ideas,
-        base_dir=base_dir,
-        client=client,
-        model=client_model,
-    )
-
-
-
-    return jsonify({'response': response})
-
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
