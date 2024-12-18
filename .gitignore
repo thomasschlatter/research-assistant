@@ -1,3 +1,4 @@
 venv/
 /components/__pycache__/brainstormer.cpython-310.pyc
 /components/__pycache__/browse.cpython-310.pyc
+components/__pycache__/
