@@ -1,0 +1,50 @@
+[
+    {
+        "start": 0.081,
+        "end": 0.662,
+        "phonemes": [
+            {
+                "phoneme": "t",
+                "start": 0.081,
+                "end": 0.093,
+                "type": null
+            },
+            {
+                "phoneme": "i",
+                "start": 0.174,
+                "end": 0.197,
+                "type": null
+            },
+            {
+                "phoneme": "\u02d0",
+                "start": 0.244,
+                "end": 0.255,
+                "type": null
+            },
+            {
+                "phoneme": "e",
+                "start": 0.313,
+                "end": 0.348,
+                "type": null
+            },
+            {
+                "phoneme": "\u026a",
+                "start": 0.406,
+                "end": 0.418,
+                "type": null
+            },
+            {
+                "phoneme": "p",
+                "start": 0.476,
+                "end": 0.569,
+                "type": "replace"
+            },
+            {
+                "phoneme": " ",
+                "start": 0.58,
+                "end": 0.662,
+                "type": null
+            }
+        ]
+    }
+]

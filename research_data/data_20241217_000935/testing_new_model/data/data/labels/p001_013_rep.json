@@ -1,0 +1,38 @@
+[
+    {
+        "start": 0.07,
+        "end": 1.405,
+        "phonemes": [
+            {
+                "phoneme": "d",
+                "start": 0.07,
+                "end": 1.033,
+                "type": "rep"
+            },
+            {
+                "phoneme": "\u0292",
+                "start": 1.045,
+                "end": 1.057,
+                "type": null
+            },
+            {
+                "phoneme": "\u02c8",
+                "start": 1.149,
+                "end": 1.161,
+                "type": null
+            },
+            {
+                "phoneme": "i",
+                "start": 1.173,
+                "end": 1.242,
+                "type": null
+            },
+            {
+                "phoneme": "\u02d0",
+                "start": 1.358,
+                "end": 1.405,
+                "type": null
+            }
+        ]
+    }
+]

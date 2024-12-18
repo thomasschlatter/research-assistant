@@ -1,0 +1,205 @@
+{
+  "query": "phoneme",
+  "datasets": [
+    {
+      "description": "",
+      "title": "large_dataset_single_phoneme_mono_channel_sounds",
+      "ref": "ayush10100/large-dataset-single-phoneme-mono-channel-sounds",
+      "size": 46246366,
+      "lastUpdated": "2024-09-04T18:10:06",
+      "url": "https://www.kaggle.com/datasets/ayush10100/large-dataset-single-phoneme-mono-channel-sounds",
+      "downloadCount": 3,
+      "licenseName": "Unknown"
+    },
+    {
+      "description": "",
+      "title": "phoneme_experment_collection_dataset_01_variation",
+      "ref": "zang000/phoneme-experment-collection-dataset-01-variation",
+      "size": 22695495,
+      "lastUpdated": "2024-09-03T10:24:55",
+      "url": "https://www.kaggle.com/datasets/zang000/phoneme-experment-collection-dataset-01-variation",
+      "downloadCount": 2,
+      "licenseName": "Apache 2.0"
+    },
+    {
+      "description": "",
+      "title": "phoneme_10_dataset",
+      "ref": "zang000/phoneme-10-dataset",
+      "size": 33850,
+      "lastUpdated": "2024-08-26T19:30:04",
+      "url": "https://www.kaggle.com/datasets/zang000/phoneme-10-dataset",
+      "downloadCount": 2,
+      "licenseName": "Unknown"
+    },
+    {
+      "description": "",
+      "title": "phoneme_sound_collection",
+      "ref": "ayush10100/phoneme-sound-collection",
+      "size": 1159020,
+      "lastUpdated": "2024-08-13T10:24:33",
+      "url": "https://www.kaggle.com/datasets/ayush10100/phoneme-sound-collection",
+      "downloadCount": 4,
+      "licenseName": "GPL 3"
+    },
+    {
+      "description": "",
+      "title": "phoneme_model_position_error_datacard",
+      "ref": "ayush10100/phoneme-model-position-error-datacard",
+      "size": 1089851,
+      "lastUpdated": "2024-08-10T08:44:40",
+      "url": "https://www.kaggle.com/datasets/ayush10100/phoneme-model-position-error-datacard",
+      "downloadCount": 2,
+      "licenseName": "Unknown"
+    },
+    {
+      "description": "",
+      "title": "phoneme_model_position_predictor_datacard",
+      "ref": "ayush10100/phoneme-model-position-predictor-datacard",
+      "size": 902812705,
+      "lastUpdated": "2024-08-09T19:02:55",
+      "url": "https://www.kaggle.com/datasets/ayush10100/phoneme-model-position-predictor-datacard",
+      "downloadCount": 0,
+      "licenseName": "Unknown"
+    },
+    {
+      "description": "",
+      "title": "ru phoneme dataset",
+      "ref": "nikipshg/ru-phoneme-dataset",
+      "size": 49285593,
+      "lastUpdated": "2024-07-26T23:00:46",
+      "url": "https://www.kaggle.com/datasets/nikipshg/ru-phoneme-dataset",
+      "downloadCount": 0,
+      "licenseName": "Unknown"
+    },
+    {
+      "description": "",
+      "title": "lexicon clean",
+      "ref": "jvmchik/lexicon-clean",
+      "size": 3089557,
+      "lastUpdated": "2024-07-23T16:41:43",
+      "url": "https://www.kaggle.com/datasets/jvmchik/lexicon-clean",
+      "downloadCount": 0,
+      "licenseName": "MIT"
+    },
+    {
+      "description": "",
+      "title": "clean cmu",
+      "ref": "jvmchik/clean-cmu",
+      "size": 3089557,
+      "lastUpdated": "2024-07-23T16:40:42",
+      "url": "https://www.kaggle.com/datasets/jvmchik/clean-cmu",
+      "downloadCount": 0,
+      "licenseName": "MIT"
+    },
+    {
+      "description": "",
+      "title": "Arabic Phoneme Audio of Indonesian Primary School",
+      "ref": "annisaqr/arabic-phoneme-audio-of-indonesian-primary-school",
+      "size": 26656647,
+      "lastUpdated": "2024-07-15T11:15:06",
+      "url": "https://www.kaggle.com/datasets/annisaqr/arabic-phoneme-audio-of-indonesian-primary-school",
+      "downloadCount": 2,
+      "licenseName": "MIT"
+    },
+    {
+      "description": "",
+      "title": "275k_dataset",
+      "ref": "nikipshg/275k-dataset",
+      "size": 4155495,
+      "lastUpdated": "2024-06-30T22:41:02",
+      "url": "https://www.kaggle.com/datasets/nikipshg/275k-dataset",
+      "downloadCount": 0,
+      "licenseName": "Unknown"
+    },
+    {
+      "description": "",
+      "title": "lexicin200k",
+      "ref": "nikipshg/lexicin200k",
+      "size": 3071599,
+      "lastUpdated": "2024-06-25T19:46:05",
+      "url": "https://www.kaggle.com/datasets/nikipshg/lexicin200k",
+      "downloadCount": 2,
+      "licenseName": "Unknown"
+    },
+    {
+      "description": "",
+      "title": "g2p_data",
+      "ref": "jvmchik/g2p-data",
+      "size": 4095697,
+      "lastUpdated": "2024-06-22T00:12:45",
+      "url": "https://www.kaggle.com/datasets/jvmchik/g2p-data",
+      "downloadCount": 0,
+      "licenseName": "Unknown"
+    },
+    {
+      "description": "",
+      "title": "Spanish Average Tone Speech Synthesis Corpus",
+      "ref": "nexdatafrank/spanish-average-tone-speech-synthesis-corpus",
+      "size": 4163189,
+      "lastUpdated": "2024-06-11T07:42:57",
+      "url": "https://www.kaggle.com/datasets/nexdatafrank/spanish-average-tone-speech-synthesis-corpus",
+      "downloadCount": 1,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "description": "",
+      "title": "Japanese Average Tone Speech Synthesis Corpus",
+      "ref": "nexdatafrank/japanese-average-tone-speech-synthesis-corpus",
+      "size": 2542246,
+      "lastUpdated": "2024-06-11T07:38:11",
+      "url": "https://www.kaggle.com/datasets/nexdatafrank/japanese-average-tone-speech-synthesis-corpus",
+      "downloadCount": 0,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "description": "",
+      "title": "New Zealand English Average Tone Speech",
+      "ref": "nexdatafrank/new-zealand-english-average-tone-speech",
+      "size": 3273204,
+      "lastUpdated": "2024-06-11T07:36:34",
+      "url": "https://www.kaggle.com/datasets/nexdatafrank/new-zealand-english-average-tone-speech",
+      "downloadCount": 0,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "description": "",
+      "title": "64,378 Images Data of 1,073 Dogs' Noses",
+      "ref": "nexdatafrank/64378-images-data-of-1073-dogs-noses",
+      "size": 7033650,
+      "lastUpdated": "2024-06-11T01:32:04",
+      "url": "https://www.kaggle.com/datasets/nexdatafrank/64378-images-data-of-1073-dogs-noses",
+      "downloadCount": 2,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "description": "",
+      "title": "British English Average Tone Speech",
+      "ref": "nexdatafrank/british-english-average-tone-speech",
+      "size": 1821147,
+      "lastUpdated": "2024-06-07T08:12:45",
+      "url": "https://www.kaggle.com/datasets/nexdatafrank/british-english-average-tone-speech",
+      "downloadCount": 3,
+      "licenseName": "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"
+    },
+    {
+      "description": "",
+      "title": "The Chaski Phoneme Project",
+      "ref": "chaskiandroid/the-chaski-phoneme-project",
+      "size": 294875517,
+      "lastUpdated": "2024-06-04T16:48:32",
+      "url": "https://www.kaggle.com/datasets/chaskiandroid/the-chaski-phoneme-project",
+      "downloadCount": 12,
+      "licenseName": "Attribution 4.0 International (CC BY 4.0)"
+    },
+    {
+      "description": "",
+      "title": "Phoneme IMB CLASS",
+      "ref": "divx1979/phoneme-imb-class",
+      "size": 61929,
+      "lastUpdated": "2024-04-18T07:27:40",
+      "url": "https://www.kaggle.com/datasets/divx1979/phoneme-imb-class",
+      "downloadCount": 6,
+      "licenseName": "Apache 2.0"
+    }
+  ]
+}

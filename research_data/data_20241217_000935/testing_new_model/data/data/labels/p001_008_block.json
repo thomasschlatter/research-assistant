@@ -1,0 +1,74 @@
+[
+    {
+        "start": 0.035,
+        "end": 2.406,
+        "phonemes": [
+            {
+                "phoneme": null,
+                "start": 0.035,
+                "end": 1.535,
+                "type": "block"
+            },
+            {
+                "phoneme": "d",
+                "start": 1.535,
+                "end": 1.546,
+                "type": null
+            },
+            {
+                "phoneme": "\u0292",
+                "start": 1.593,
+                "end": 1.628,
+                "type": null
+            },
+            {
+                "phoneme": "\u02cc",
+                "start": 1.639,
+                "end": 1.651,
+                "type": null
+            },
+            {
+                "phoneme": "e",
+                "start": 1.663,
+                "end": 1.686,
+                "type": null
+            },
+            {
+                "phoneme": "\u026a",
+                "start": 1.732,
+                "end": 1.825,
+                "type": null
+            },
+            {
+                "phoneme": "\u02c8",
+                "start": 1.895,
+                "end": 1.918,
+                "type": null
+            },
+            {
+                "phoneme": "e",
+                "start": 1.976,
+                "end": 2.022,
+                "type": null
+            },
+            {
+                "phoneme": "\u026a",
+                "start": 2.069,
+                "end": 2.115,
+                "type": null
+            },
+            {
+                "phoneme": "t",
+                "start": 2.173,
+                "end": 2.208,
+                "type": null
+            },
+            {
+                "phoneme": "\u0283",
+                "start": 2.371,
+                "end": 2.406,
+                "type": null
+            }
+        ]
+    }
+]

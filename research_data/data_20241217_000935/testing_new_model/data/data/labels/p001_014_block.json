@@ -1,0 +1,68 @@
+[
+    {
+        "start": 0.023,
+        "end": 1.755,
+        "phonemes": [
+            {
+                "phoneme": null,
+                "start": 0.023,
+                "end": 1.023,
+                "type": "block"
+            },
+            {
+                "phoneme": "t",
+                "start": 1.023,
+                "end": 1.035,
+                "type": null
+            },
+            {
+                "phoneme": "\u02cc",
+                "start": 1.093,
+                "end": 1.139,
+                "type": null
+            },
+            {
+                "phoneme": "i",
+                "start": 1.151,
+                "end": 1.197,
+                "type": null
+            },
+            {
+                "phoneme": "\u02d0",
+                "start": 1.267,
+                "end": 1.302,
+                "type": null
+            },
+            {
+                "phoneme": "\u02c8",
+                "start": 1.313,
+                "end": 1.325,
+                "type": null
+            },
+            {
+                "phoneme": "e",
+                "start": 1.337,
+                "end": 1.43,
+                "type": null
+            },
+            {
+                "phoneme": "\u026a",
+                "start": 1.464,
+                "end": 1.488,
+                "type": null
+            },
+            {
+                "phoneme": "t",
+                "start": 1.534,
+                "end": 1.615,
+                "type": null
+            },
+            {
+                "phoneme": "\u0283",
+                "start": 1.731,
+                "end": 1.755,
+                "type": null
+            }
+        ]
+    }
+]

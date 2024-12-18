@@ -1,0 +1,55 @@
+{
+  "query": "phoneme",
+  "datasets": [
+    {
+      "ref": "ayush10100/large-dataset-single-phoneme-mono-channel-sounds",
+      "title": "large_dataset_single_phoneme_mono_channel_sounds",
+      "size": 46246366,
+      "lastUpdated": "2024-09-04T18:10:06",
+      "url": "https://www.kaggle.com/datasets/ayush10100/large-dataset-single-phoneme-mono-channel-sounds",
+      "description": "",
+      "downloadCount": 2,
+      "licenseName": "Unknown"
+    },
+    {
+      "ref": "zang000/phoneme-experment-collection-dataset-01-variation",
+      "title": "phoneme_experment_collection_dataset_01_variation",
+      "size": 22695495,
+      "lastUpdated": "2024-09-03T10:24:55",
+      "url": "https://www.kaggle.com/datasets/zang000/phoneme-experment-collection-dataset-01-variation",
+      "description": "",
+      "downloadCount": 1,
+      "licenseName": "Apache 2.0"
+    },
+    {
+      "ref": "zang000/phoneme-10-dataset",
+      "title": "phoneme_10_dataset",
+      "size": 33850,
+      "lastUpdated": "2024-08-26T19:30:04",
+      "url": "https://www.kaggle.com/datasets/zang000/phoneme-10-dataset",
+      "description": "",
+      "downloadCount": 1,
+      "licenseName": "Unknown"
+    },
+    {
+      "ref": "ayush10100/phoneme-sound-collection",
+      "title": "phoneme_sound_collection",
+      "size": 1159020,
+      "lastUpdated": "2024-08-13T10:24:33",
+      "url": "https://www.kaggle.com/datasets/ayush10100/phoneme-sound-collection",
+      "description": "",
+      "downloadCount": 3,
+      "licenseName": "GPL 3"
+    },
+    {
+      "ref": "ayush10100/phoneme-model-position-error-datacard",
+      "title": "phoneme_model_position_error_datacard",
+      "size": 1089851,
+      "lastUpdated": "2024-08-10T08:44:40",
+      "url": "https://www.kaggle.com/datasets/ayush10100/phoneme-model-position-error-datacard",
+      "description": "",
+      "downloadCount": 1,
+      "licenseName": "Unknown"
+    }
+  ]
+}

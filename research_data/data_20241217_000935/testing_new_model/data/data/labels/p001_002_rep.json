@@ -1,0 +1,26 @@
+[
+    {
+        "start": 0.046,
+        "end": 1.138,
+        "phonemes": [
+            {
+                "phoneme": "\u02c8",
+                "start": 0.046,
+                "end": 0.952,
+                "type": "rep"
+            },
+            {
+                "phoneme": "\u025b",
+                "start": 0.998,
+                "end": 1.01,
+                "type": null
+            },
+            {
+                "phoneme": "l",
+                "start": 1.103,
+                "end": 1.138,
+                "type": null
+            }
+        ]
+    }
+]

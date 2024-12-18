@@ -1,0 +1,32 @@
+[
+    {
+        "start": 0.07,
+        "end": 2.046,
+        "phonemes": [
+            {
+                "phoneme": null,
+                "start": 0.07,
+                "end": 1.57,
+                "type": "block"
+            },
+            {
+                "phoneme": "\u02c8",
+                "start": 1.57,
+                "end": 1.593,
+                "type": null
+            },
+            {
+                "phoneme": "\u025b",
+                "start": 1.721,
+                "end": 1.779,
+                "type": null
+            },
+            {
+                "phoneme": "n",
+                "start": 1.872,
+                "end": 2.046,
+                "type": null
+            }
+        ]
+    }
+]
