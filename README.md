@@ -1,6 +1,6 @@
-# Project Title
+# Scientific Writer Assistant
 
-A Python-based solution leveraging R and various APIs.
+Automating the Research Process
 
 ## Prerequisites
 
