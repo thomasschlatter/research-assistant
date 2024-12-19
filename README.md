@@ -1,43 +1,114 @@
-python -m venv venv
+# Project Title
 
-.\venv\Scripts\Activate
+A Python-based solution leveraging R and various APIs.
 
-Step 1: Locate the R Installation Folder
-Find where R is installed on your system. It is usually in:
-plaintext
-Copy code
-C:\Program Files\R\R-x.x.x\bin
-Replace x.x.x with your installed version number. For example, it might be R-4.3.1.
-Step 2: Add R to the System PATH
-On Windows:
-Press Win + R, type sysdm.cpl, and press Enter to open the System Properties.
-Go to the Advanced tab and click Environment Variables.
-Under System variables, find and select the variable named Path, then click Edit.
-Add the path to the bin folder of your R installation. For example:
-plaintext
-Copy code
-C:\Program Files\R\R-x.x.x\bin
-Click OK to save and close all windows.
-Step 3: Verify the Configuration
-Open a new Command Prompt.
-Type:
-plaintext
-Copy code
-R --version
-If configured correctly, it should display the version of R.
-Step 4: Optional: Set R_HOME (If Required)
-If your application still requires R_HOME, follow these steps:
+## Prerequisites
 
-In the Environment Variables window (as above), create a new System variable:
+Before running the project, ensure you have the following software installed:
 
-Variable name: R_HOME
-Variable value: The root folder of your R installation, e.g.:
-plaintext
-Copy code
-C:\Program Files\R\R-x.x.x
-Click OK and restart your system to apply the changes.
+- Python 3.8 or later
+- R (Tested with R 4.x.x)
 
-Common Issues
-Wrong Path: Double-check that the path to bin is correct.
-Restart Needed: If it still doesn't work, restart your computer to apply the environment variable changes.
-Let me know if you encounter further issues!
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd <repository-folder>
+   ```
+
+2. Create and activate a virtual environment:
+
+   ```bash
+   python -m venv venv
+
+   # On Windows
+   .\venv\Scripts\activate
+
+   # On macOS/Linux
+   source venv/bin/activate
+   ```
+
+3. Install the Python dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Environment Variables
+
+The following environment variables must be set to use the software:
+
+- `OPENAI_API_KEY`: Your OpenAI API key.
+- `R_HOME`: The root folder of your R installation (e.g., `C:\Program Files\R\R-x.x.x`).
+- `TAVILY_API_KEY`: Your Tavily API key.
+- `OSF_API_TOKEN` Your Open Science Framework API Token
+
+### Setting Environment Variables
+
+#### On Windows:
+
+1. Press `Win + R`, type `sysdm.cpl`, and press Enter.
+2. Navigate to the `Advanced` tab and click `Environment Variables`.
+3. Under `System variables`, click `New` and add the required variables:
+   - Variable name: `OPENAI_API_KEY`
+     Variable value: Your OpenAI API key.
+   - Variable name: `R_HOME`
+     Variable value: Path to your R installation (e.g., `C:\Program Files\R\R-x.x.x`).
+   - Variable name: `TAVILY_API_KEY`
+     Variable value: Your Tavily API key.
+4. Click OK to save and close.
+
+#### On macOS/Linux:
+
+1. Open a terminal and edit your shell configuration file (e.g., `.bashrc`, `.zshrc`):
+   ```bash
+   nano ~/.bashrc  # or ~/.zshrc
+   ```
+2. Add the following lines:
+   ```bash
+   export OPENAI_API_KEY="your_openai_api_key"
+   export R_HOME="/path/to/your/R"
+   export TAVILY_API_KEY="your_tavily_api_key"
+   ```
+3. Save the file and apply the changes:
+   ```bash
+   source ~/.bashrc  # or ~/.zshrc
+   ```
+
+## Usage
+
+1. Activate the virtual environment:
+
+   ```bash
+   # On Windows
+   .\venv\Scripts\activate
+
+   # On macOS/Linux
+   source venv/bin/activate
+   ```
+
+2. change the VENV_PATH in constants
+
+3. Run the main script:
+   ```bash
+   python main.py
+   ```
+
+## Common Issues
+
+### Missing Dependencies
+
+Ensure you have installed all dependencies using the `requirements.txt` file.
+
+### Environment Variables Not Set
+
+Double-check that all required environment variables are properly set.
+
+### R Configuration
+
+Ensure the `R_HOME` variable points to the correct R installation folder.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.

@@ -1,8 +1,24 @@
-venv/
+/venv/
+/__pycache__/
 /components/__pycache__/brainstormer.cpython-310.pyc
 /components/__pycache__/browse.cpython-310.pyc
 /components/__pycache__/
+/constants/__pycache__/
 /tmp/analysis/data/*
 /tmp/analysis/plots/*
 /tmp/analysis/analysis.json
 /tmp/analysis/analysis.py
+/tmp/write_up/abstract.md
+/tmp/write_up/introduction.md
+/tmp/write_up/methods.md
+/tmp/write_up/results.md
+/tmp/write_up/discussion.md
+/tmp/write_up/conclusion.md
+tmp/write_up/title.md
+/tmp/write_up_/
+/tmp/proposals copy/
+citations.md
+flowchart.drawio
+graph.py
+kaggle.json
+length_exceeded.png
