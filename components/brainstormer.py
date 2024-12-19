@@ -79,16 +79,14 @@ def generate_research_paper_idea(specific_research_area, specific_research_sub_a
         choice = input("\nEnter your choice (1-3): ")
     
         if choice == "1":
-            refinement = input("Enter specific technical aspects to refine: ")
             response = client.chat.completions.create(
-                model="gpt-3.5-turbo",
+                model="gpt-4o",
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": f"""
                     Enhance the following research proposal with more technical depth:
                 
                     Current Proposal: {proposal}
-                    Focus on: {refinement}
                 
                     Ensure the refinement maintains scientific rigor and includes:
                     - Specific technical methodology

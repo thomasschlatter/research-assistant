@@ -1,3 +1,8 @@
 venv/
 /components/__pycache__/brainstormer.cpython-310.pyc
 /components/__pycache__/browse.cpython-310.pyc
+/components/__pycache__/
+/tmp/analysis/data/*
+/tmp/analysis/plots/*
+/tmp/analysis/analysis.json
+/tmp/analysis/analysis.py
