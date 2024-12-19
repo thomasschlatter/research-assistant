@@ -1,0 +1,63 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.4.0/mermaid.min.js"></script>
+        <script>mermaid.initialize({ startOnLoad: true });</script>
+    </head>
+    <body>
+        <div class="mermaid">
+        
+flowchart TD
+    %% Proposal Section %%
+    subgraph ProposalSection[**Proposal Section**]
+        classDef proposalStyle fill:#FFD700,stroke:#000,stroke-width:2,color:#000;
+        class ProposalSection proposalStyle;
+        A[Start - Scientific Writer Assistant] --> B[Generate Research Proposal]
+        B --> C[Find Relevant Papers]
+        B --> D[Find Relevant Repositories]
+        C --> E[Refine Proposal Based on Tools and Repositories]
+        D --> E
+        E --> F[Save Proposal, Papers, and Repositories]
+    end
+
+    %% Draft Section %%
+    subgraph DraftSection[**Draft Section**]
+        classDef draftStyle fill:#87CEEB,stroke:#000,stroke-width:2,color:#000;
+        class DraftSection draftStyle;
+        F --> G[Generate Sections: Abstract, Introduction, Methods]
+        G --> H[Download OSF Data]
+        H --> I[Analyze Downloaded Files]
+        I --> J[Display Folder Tree]
+        J --> K[Generate Analysis Script]
+        K --> L[Run Analysis Script]
+        L --> M[Parse Analysis Results]
+        M --> N[Generate Results Section]
+        N --> O[Draft Refinement Iterations]
+        O --> P[Rewrite Sections with Results Context]
+        P --> Q[Find More Relevant Papers]
+        Q --> O
+        O --> R[Generate Discussion Section]
+        R --> S[Generate Conclusion Section]
+        S --> T[Generate Title]
+    end
+
+    %% Publication Section %%
+    subgraph PublicationSection[**Publication Section**]
+        classDef publicationStyle fill:#98FB98,stroke:#000,stroke-width:2,color:#000;
+        class PublicationSection publicationStyle;
+        T --> U[Find Suitable Journal]
+        U --> V[Get Journal Format Requirements]
+        V --> W[Generate Final Paper with Formatting]
+        W --> X[Save Final Paper]
+        X --> Y[End - Final Paper Ready]
+    end
+
+    %% Define section styles %%
+    classDef sectionTitle font-size:18px,font-weight:bold;
+    class ProposalSection,DraftSection,PublicationSection sectionTitle;
+
+        </div>
+    </body>
+    </html>
+    
