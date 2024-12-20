@@ -91,13 +91,21 @@ Previous research, such as _The AI Scientist: Towards Fully Automated Open-Ended
 
 ---
 
-## Challenges
+## Challenges (1/2)
 
 - **Data Bottleneck:** Relies on the availability of suitable datasets and APIs. This is the real issue with this approach.
 
 E.g. LLM wants to use PHOIBLE in research on Sound Symbolism, but can't because it's not available on OSF.
 
 ![science height:300px](bottleneck.png)
+
+- **Ethical Considerations:** Should we mimic the human research process (that adjusts the research question based onh the outcomes) or should we go the "accepted route" of hypothesis formation and testing?
+
+---
+
+## Challenges (2/2)
+
+- **Ethical Considerations:** Should we mimic the human research process (that adjusts the research question based on the outcomes) or should we go the "accepted route" of hypothesis formation and testing?
 
 ---
 
