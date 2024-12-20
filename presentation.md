@@ -24,7 +24,7 @@ The project makes use of **publicly available data** such as **OSF (Open Science
 
 # Previous Research
 
-Previous research, such as _The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery_ (Chris Lu et al.), is limited to machine learning subfields like diffusion modeling and transformer-based language modeling, highlighting the narrow applicability of such frameworks.
+Previous research, such as _The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery_ (Chris Lu et al.), is limited to machine learning subfields like diffusion modeling and transformer-based language modeling, highlighting the narrow applicability of such frameworks. Other research, such as Jansen et al. (2024), while encompassing diverse scientific domains, does not utilize real-world data.
 
 ---
 
@@ -99,8 +99,6 @@ E.g. LLM wants to use PHOIBLE in research on Sound Symbolism, but can't because 
 
 ![science height:300px](bottleneck.png)
 
-- **Ethical Considerations:** Should we mimic the human research process (that adjusts the research question based onh the outcomes) or should we go the "accepted route" of hypothesis formation and testing?
-
 ---
 
 ## Challenges (2/2)
@@ -129,3 +127,11 @@ At this stage, the quantitative parts of the paper probably do not meet journal 
 ---
 
 # Q&A
+
+---
+
+# Sources
+
+Lu, C., Lu, C., Lange, R. T., Foerster, J., Clune, J., & Ha, D. (2023). The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery. arXiv preprint. Retrieved from https://arxiv.org/abs/2304.05332
+
+Jansen, P., Côté, M. A., Khot, T., Bransom, E., Mishra, B. D., Majumder, B. P., Tafjord, O., & Clark, P. (2024). DISCOVERYWORLD: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents. arXiv preprint arXiv:2411.14051.
