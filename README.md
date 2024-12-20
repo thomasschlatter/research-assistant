@@ -78,7 +78,13 @@ The following environment variables must be set to use the software:
 
 ## Usage
 
-1. Activate the virtual environment:
+1. Create the virtual environment:
+
+   ```bash
+   python -m venv venv
+   ```
+
+2. Activate the virtual environment:
 
    ```bash
    # On Windows
@@ -88,12 +94,18 @@ The following environment variables must be set to use the software:
    source venv/bin/activate
    ```
 
-2. change the VENV_PATH in constants
+3. change the VENV_PATH in constants
 
-3. Run the main script:
+4. Run the main script:
    ```bash
    python main.py
    ```
+
+## When done creating the paper, use pandoc to convert the markdown file to a pdf file
+
+```bash
+pandoc -s -o tmp/write_up/final_paper.pdf tmp/write_up/final_paper.md
+```
 
 ## Common Issues
 

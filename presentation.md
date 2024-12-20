@@ -2,40 +2,65 @@
 marp: true
 theme: default
 paginate: true
-header: Scientific Writer Assistant
+header: End-to-End Scientific Writing
 footer: Confidential
 ---
 
-# Scientific Writer Assistant
+# End-to-End Scientific Writing
 
-**Automating the Research Process**
+**Automating the Quantitative Research Process**
+
+https://github.com/thomasschlatter/research-assistant.git
 
 ---
 
 ## Project Overview
 
-This project aims to automate significant portions of the research writing process, from proposal generation to paper submission, using Python, and various APIs.
+This project aims to automate significant portions of the research writing process, from proposal generation to paper submission, using LLMs, Python, and various APIs.
 
 The project makes use of **publicly available data** such as **OSF (Open Science Framework)** and **Semantic Scholar** to automate the paper writing process.
 
 ---
 
-## Core Features
+# Previous Research
 
-- **Proposal Generation & Refinement:**
-  - Generates research proposals based on field and sub-field.
-  - Refines proposals using relevant papers, repositories, and available tools.
-- **Paper Writing:**
-  - Automatically generates sections (abstract, introduction, methods, etc.).
-  - Rewrites sections based on generated results and new findings.
+Previous research, such as _The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery_ (Chris Lu et al.), is limited to machine learning subfields like diffusion modeling and transformer-based language modeling, highlighting the narrow applicability of such frameworks.
 
 ---
 
-## Core Features
+# What is Science?
+
+![science height:450px](image.png)
+
+---
+
+# Science Creates Surprising Connections
+
+"interesting" scientific discovery:
+
+- Takes concepts from one field and applies them in unexpected ways to another (or the data of one field and applies it to another in quantitative studies)
+- Reveals hidden patterns across seemingly unrelated domains
+
+**This is arguably very hard for LLMs**
+
+---
+
+## Core Features of the current approach (1/2)
+
+- **Proposal Generation & Refinement:**
+  - Generates research papers that is **not restricted to a research field**.
+  - Refines proposals using **publicly available** research and repositories..
+- **Paper Writing:**
+  - Automatically generates sections (abstract, introduction, methods, etc.).
+  - Most importantly: **Incorporates quantitative data analysis into the paper**.
+
+---
+
+## Core Features of the current approach (2/2)
 
 - **Data Analysis:**
   - Downloads data from repositories (e.g., OSF).
-  - Generates analysis.py for stgatistical analysis on-the-fly based on the available data.
+  - Generates analysis.py for statistical analysis on-the-fly, based on the available data.
 - **Journal Selection & Formatting:**
   - Recommends suitable journals.
   - Formats the final paper according to journal guidelines.
@@ -43,6 +68,8 @@ The project makes use of **publicly available data** such as **OSF (Open Science
 ---
 
 ## Workflow
+
+[View detailed workflow diagram](scientific_writer_assistant_flowchart.html)
 
 1. **Proposal:** Generate and refine a research proposal.
 2. **Literature Review:** Find and analyze relevant papers.
@@ -58,42 +85,38 @@ The project makes use of **publicly available data** such as **OSF (Open Science
 ## Technology Stack
 
 - **Python:** Core programming language for workflow orchestration and API interaction.
-- **R:** Statistical programming language for data analysis.
 - **OpenAI API:** Used for natural language processing tasks (proposal generation, section writing, etc.).
-- **Tavily API:** Potentially used for tasks like literature review and information extraction.
-- **Other APIs:** May include APIs for accessing research databases, code repositories, etc.
-
----
-
-## Benefits
-
-- **Increased Efficiency:** Automates tedious tasks, freeing up researchers' time.
-- **Improved Quality:** Leverages AI to enhance writing and analysis.
-- **Reduced Bias:** Potentially minimizes human bias in literature review and data interpretation.
-- **Accessibility:** Makes research more accessible to individuals with limited writing or coding skills.
+- **Tavily API:** Used for citation and bibliography information retrieval.
+- **Other APIs:** OSF, Semantic Scholar, etc.
 
 ---
 
 ## Challenges
 
-- **Data Availability:** Relies on the availability of suitable datasets and APIs.
-- **Ethical Considerations:** Requires careful design to avoid plagiarism and ensure responsible use of AI.
-- **Accuracy:** AI-generated content may require human review and editing.
+- **Data Bottleneck:** Relies on the availability of suitable datasets and APIs. This is the real issue with this approach.
+
+E.g. LLM wants to use PHOIBLE in research on Sound Symbolism, but can't because it's not available on OSF.
+
+![science height:300px](bottleneck.png)
 
 ---
 
-## Future Directions
+## To do
 
-- **Enhanced User Interface:** Develop a user-friendly interface for easier interaction.
-- **Integration with Other Tools:** Connect with reference managers, statistical software, etc.
-- **Personalized Recommendations:** Tailor suggestions based on user preferences and research history.
+- **Include a review process:** Add another iterative level of review and editing to ensure the quality of the final paper.
+- **Integration with Text Embeddings for the paper abstracts:** Use text embeddings to summarize the paper abstracts to circumvent context issues.
 - **Advanced Analytics:** Incorporate more sophisticated data analysis techniques.
 
 ---
 
 ## Conclusion
 
-This project has the potential to revolutionize the research writing process by automating key tasks and providing intelligent assistance to researchers. While challenges remain, the benefits in terms of efficiency, quality, and accessibility are significant.
+This project has the potential to completely automate the research writing process if key challenges are addressed:
+
+- **Data Availability:** Ensure the availability of relevant datasets and APIs.
+- **Quality Control:** Implement a robust review process to ensure the quality of the final paper.
+
+At this stage, the quantitative parts of the paper probably do not meet journal standards given the data bottleneck.
 
 ---
 

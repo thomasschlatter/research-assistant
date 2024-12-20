@@ -173,6 +173,9 @@ def main():
     # Save the formatted paper
     with open(f'tmp/write_up/final_paper.md', 'w', encoding='utf-8') as f:
         f.write(final_paper)
+    
+    # Convert the Markdown to PDF
+    subprocess.run(['pandoc', '-s', '-o', 'tmp/write_up/final_paper.pdf', 'tmp/write_up/final_paper.md'])
 
     print("DONE")
     print("The paper is ready to be submitted to: " + journal)
