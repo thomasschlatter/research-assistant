@@ -27,6 +27,9 @@ def main():
     sub_field = SUB_FIELD
     author_names = AUTHOR_NAMES
 
+    # Create citations directory if it doesn't exist
+    os.makedirs('tmp/citations', exist_ok=True)
+
     # Clears the relevant papers file at startup
     papers_path = "tmp/citations/references.bib"
     with open(papers_path, 'w') as f:
