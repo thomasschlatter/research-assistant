@@ -1,5 +1,49 @@
 # Related OSF Repositories
 
+## sound symbolism for locomotion
+
+**Repository ID:** j9ab5
+
+**Description:** 
+
+**Created:** 2019-06-13T05:59:59.284136
+
+**Last Modified:** 2024-12-23T08:51:40.718875
+
+**Public:** Yes
+
+### Files
+
+- **Name:** productions and ratings.xlsx
+  - **Size:** 138020 bytes
+  - **Created:** 2019-06-13T06:15:18.219105Z
+  - **Last Modified:** 2019-06-13T06:15:18.219105
+  - **Download Link:** [https://osf.io/download/p5u7a/](https://osf.io/download/p5u7a/)
+
+---
+
+## Sound Symbolism Facilitates Young Infants’ Association Learning
+
+**Repository ID:** hqmgx
+
+**Description:** 
+
+**Created:** 2024-12-22T07:16:37.958360
+
+**Last Modified:** 2024-12-22T07:24:04.341538
+
+**Public:** Yes
+
+### Files
+
+- **Name:** Infant AV Association.xlsx
+  - **Size:** 22398 bytes
+  - **Created:** 2024-12-22T07:17:59.529383Z
+  - **Last Modified:** 2024-12-22T07:17:59.529383
+  - **Download Link:** [https://osf.io/download/6767bd27a28f2e9b25e4b9a1/](https://osf.io/download/6767bd27a28f2e9b25e4b9a1/)
+
+---
+
 ## Valence Sound Symbolism in First Names
 
 **Repository ID:** 925ky
@@ -139,25 +183,185 @@
 
 ---
 
-## Cuteness modulates size sound symbolism at its extremes
+## Assessing neural network understanding of perspectival motion verbs
 
-**Repository ID:** qck9r
+**Repository ID:** qfz38
 
 **Description:** 
 
-**Created:** 2023-05-12T16:32:12.334295
+**Created:** 2020-09-09T20:59:30.265644
 
-**Last Modified:** 2023-11-15T12:28:53.918189
+**Last Modified:** 2021-09-12T16:46:09.357781
 
 **Public:** Yes
 
 ### Files
 
-- **Name:** data.RData
-  - **Size:** 143068 bytes
-  - **Created:** 2023-05-12T16:32:50.936564Z
-  - **Last Modified:** 2023-09-20T09:16:10.504535
-  - **Download Link:** [https://osf.io/download/5tnzk/](https://osf.io/download/5tnzk/)
+- **Name:** results_all.csv
+  - **Size:** 16888417 bytes
+  - **Created:** 2021-09-12T16:27:48.745871Z
+  - **Last Modified:** 2021-09-12T16:27:48.745871
+  - **Download Link:** [https://osf.io/download/rwg84/](https://osf.io/download/rwg84/)
+
+---
+
+## Sensitivity to telicity with manner-of-motion verbs and complex Goal prepositions in child Romanian
+
+**Repository ID:** zhd2m
+
+**Description:** 
+
+**Created:** 2024-05-09T19:32:36.348832
+
+**Last Modified:** 2024-05-09T19:32:41.113759
+
+**Public:** Yes
+
+---
+
+## Supplementary materials for "Quantitative Distribution of English and Indonesian Motion Verbs and Its Typological Implications: A case study with the English and Indonesian versions of the Twilight novel"
+
+**Repository ID:** d9sma
+
+**Description:** Data and R Notebook with codes for our study on quantitative distribution of English and Indonesian Motion verbs and its typological implications. The paper from this study has been accepted with minor revisions in the Journal of Language and Literature (JOLL).
+
+**Created:** 2021-05-11T13:28:08.694302
+
+**Last Modified:** 2021-11-29T09:39:39
+
+**Public:** Yes
+
+---
+
+## Designing a grammar textbook on multi-verb sequences with the deictic motion verbs in English
+
+**Repository ID:** emycq
+
+**Description:** 
+
+**Created:** 2021-04-16T01:44:14.242919
+
+**Last Modified:** 2021-04-16T16:26:46.649663
+
+**Public:** Yes
+
+---
+
+## From local deixis in Ladin to motion verbs in English: Examples of cross-linguistic analyses informing L1 and L4 teaching practices
+
+**Repository ID:** 8tcg7
+
+**Description:** 
+
+**Created:** 2021-04-13T10:28:51.195184
+
+**Last Modified:** 2021-04-13T10:28:58.803471
+
+**Public:** Yes
+
+---
+
+## Motion verbs and regional accents modulate perspective in geographical space
+
+**Repository ID:** xhwpq
+
+**Description:** 
+
+**Created:** 2018-12-30T23:02:47.953218
+
+**Last Modified:** 2019-05-02T12:11:17.753129
+
+**Public:** Yes
+
+### Files
+
+- **Name:** EXP2_MotionVerbs_ave.sav
+  - **Size:** 23601 bytes
+  - **Created:** 2018-12-30T23:05:40.010050Z
+  - **Last Modified:** 2018-12-30T23:05:40.010050
+  - **Download Link:** [https://osf.io/download/6rekh/](https://osf.io/download/6rekh/)
+
+- **Name:** EXP1_MotionVerbs_ave.sav
+  - **Size:** 18281 bytes
+  - **Created:** 2018-12-30T23:05:40.865247Z
+  - **Last Modified:** 2018-12-30T23:05:40.865247
+  - **Download Link:** [https://osf.io/download/w9t5s/](https://osf.io/download/w9t5s/)
+
+- **Name:** EXP3_MotionVerbs_ave.sav
+  - **Size:** 7297 bytes
+  - **Created:** 2018-12-30T23:05:40.931593Z
+  - **Last Modified:** 2018-12-30T23:05:40.931593
+  - **Download Link:** [https://osf.io/download/dtrf9/](https://osf.io/download/dtrf9/)
+
+---
+
+## Motion verbs in music criticism: Their conceptual and communicative motivation
+
+**Repository ID:** f38pm
+
+**Description:** general session
+
+**Created:** 2020-07-09T07:40:42.490682
+
+**Last Modified:** 2020-08-20T13:03:21.783757
+
+**Public:** Yes
+
+---
+
+## Love is hard to understand: The relationship between transitivity and caused events in the acquisition of emotion verbs
+
+**Repository ID:** wt83f
+
+**Description:** J. K. Hartshorne, A. Pogue, and J. Snedeker. Love is hard to understand: the relationship between transitivity and caused events in the acquisition of emotion verbs. Journal of child language, 42(3):467–504, 2015.
+
+**Created:** 2016-08-08T16:57:35.566000
+
+**Last Modified:** 2017-01-09T17:36:19.572000
+
+**Public:** Yes
+
+---
+
+## Cross-linguistic patterns of speech prosodic differences in autism: A machine learning study
+
+**Repository ID:** 9ta65
+
+**Description:** 
+
+**Created:** 2022-03-16T18:34:19.236825
+
+**Last Modified:** 2022-03-16T18:38:09.844547
+
+**Public:** Yes
+
+---
+
+## Efficient coding explains cross-linguistic patterns in person systems
+
+**Repository ID:** yfegn
+
+**Description:** 
+
+**Created:** 2021-09-06T20:49:01.575799
+
+**Last Modified:** 2022-03-15T09:58:59.945178
+
+**Public:** Yes
+
+---
+
+## PHONETIC FEATURES OF THE ENGLISH LANGUAGE
+
+**Repository ID:** 8wqms
+
+**Description:** The relevance of this topic lies in the fact that English is an international language that is used almost everywhere, and phonetics plays an important role in the study of this language (the section of linguistics that studies the sounds of speech and the sound structure of the language), on the literacy of which it depends, they will understand you or not. The aim of the work is to study and identify the most important and necessary phonetic rules. To achieve the goal, it was necessary to solve the following tasks: to identify the classification of English sounds, to describe the peculiarities of pronunciation, to establish intonation coloring.
+
+**Created:** 2021-05-20T15:26:08.581774
+
+**Last Modified:** 2024-05-18T11:35:56.885908
+
+**Public:** Yes
 
 ---
 
@@ -195,659 +399,1025 @@
 
 ---
 
-## Individualized Quality of Experience Estimation in Audiovisual Communication
+## Data and code from "Emergence of the cortical encoding of phonetic features in the first year of life"
 
-**Repository ID:** h3uzr
+**Repository ID:** mdnwg
 
-**Description:** Dataset repository for the dissertation "Individualized Quality of Experience Estimation in Audiovisual Communication" at TU Berlin.
+**Description:** Code and data from the paper "Emergence of the cortical encoding of phonetic features in the first year of life"
 
-**Created:** 2023-06-12T19:54:19.744843
+**Created:** 2023-09-10T16:39:38.108344
 
-**Last Modified:** 2023-06-14T23:08:44.769512
-
-**Public:** Yes
-
----
-
-## Revitalizing Language Processing with Intelligent Syntax Repair and Boolean Tensor Completion
-
-**Repository ID:** pwytb
-
-**Description:** This paper presents, SynSculpt, a methodology for correcting syntax errors in arbitrary context-free languages (CFLs) through language intersection. This method guarantees sound and complete repairs by synthesizing and scoring all potential fixes within a specified Levenshtein distance, distinguishing it from traditional heuristic approaches. Experimental results indicate that SynSculpt surpasses existing syntax repair techniques by up to 15% in accuracy and 30% in efficiency, achieving an average repair time of 50 milliseconds for common syntax errors with a 95% success rate in identifying the correct fix among the top three suggestions. Notably, SynSculpt can process up to 1000 lines of code per second with 90% accuracy across various programming languages. The implications of this work are particularly significant for large language and foundational models, as the techniques developed can enhance their ability to handle syntax errors effectively. By improving error correction capabilities, SynSculpt could lead to more reliable code generation and a better understanding of programming language syntax in these models, ultimately enhancing developer productivity and the learning experience for novice programmers.
-
-**Created:** 2024-12-15T10:08:21.767595
-
-**Last Modified:** 2024-12-15T10:23:59.524572
+**Last Modified:** 2023-09-11T20:28:12.276011
 
 **Public:** Yes
 
 ---
 
-## Fork of Zurich Cognitive Language Processing Corpus: A simultaneous EEG and eye-tracking resource for analyzing the human reading process
+## Can we decode phonetic features in inner speech using surface electromyography?
 
-**Repository ID:** 8hktu
+**Repository ID:** czer4
 
-**Description:** Dataset combining EEG and eye-tracking recordings from subjects reading natural sentences as a resource for the investigation of the human reading process in adult English native speakers.
+**Description:** Although having a long history of scrutiny in experimental psychology, it is still controversial whether inner speech (covert speech) production is accompanied by specific activity in speech muscles. We address this question by briefly reviewing previous findings related to inner speech and to the broader phenomenon of motor imagery. We then present the results of a preregistered experiment looking at the electromyographic correlates of both overt speech and inner speech production of two phonetic classes of nonwords. An automatic classification approach was undertaken to discriminate between two articulatory features contained in nonwords uttered in both overt and covert speech. Although this approach led to reasonable accuracy rates during overt speech production, it failed to discriminate inner speech phonetic content based on surface electromyography signals alone. However, exploratory analyses conducted at the individual level revealed that it seemed possible to distinguish between rounded and spread nonwords covertly produced, in two participants. We discuss these results in relation to the existing literature and suggest alternative ways to test the engagement of the speech motor system during inner speech production. Pre-registered protocol, preprint, data, as well as reproducible code and figures are available at: https://osf.io/czer4/.
 
-**Created:** 2024-12-08T06:04:08.835506
+**Created:** 2017-03-02T09:32:56.480000
 
-**Last Modified:** 2024-12-08T06:10:04.187316
+**Last Modified:** 2022-06-06T21:03:18.868626
 
 **Public:** Yes
 
 ---
 
-## On-line Supplementary Materials for "Multimodal Language Processing in School-aged Mandarin-speaking Children"
+## Phonetic features of Mock Speech
 
-**Repository ID:** t8xeq
+**Repository ID:** 5p2w3
+
+**Description:** Data associated with a project by Lisa Schlegl and Jessamyn Schertz on production and perception of mock speech.
+
+**Created:** 2021-09-14T22:14:01.609024
+
+**Last Modified:** 2021-09-16T14:42:07.860337
+
+**Public:** Yes
+
+---
+
+## Extracting phonetic features from natural classes: A mismatch negativity study of Mandarin Chinese retroflex consonants
+
+**Repository ID:** uyg9e
+
+**Description:** Raw data for the paper Extracting phonetic features from natural classes: A mismatch negativity study of Mandarin retroflex consonants
+
+**Created:** 2020-08-27T14:02:50.848122
+
+**Last Modified:** 2021-02-23T12:15:38.217466
+
+**Public:** Yes
+
+---
+
+## Socio-indexical phonetic features in the heritage language context: VOT in the Calabrian community in Toronto
+
+**Repository ID:** qvd37
 
 **Description:** 
 
-**Created:** 2023-10-05T12:49:38.484229
+**Created:** 2018-10-28T18:07:47.229122
 
-**Last Modified:** 2024-11-27T13:21:13.606945
-
-**Public:** Yes
-
----
-
-## Predicting psychosis using social media and natural language processing: Potentials and pitfalls
-
-**Repository ID:** s5qmj
-
-**Description:** 
-
-**Created:** 2024-11-18T15:18:23.002162
-
-**Last Modified:** 2024-11-18T15:18:23.002162
+**Last Modified:** 2018-10-31T17:34:04.375720
 
 **Public:** Yes
 
 ---
 
-## Lasting effects of the COVID-19 pandemic on language processing
+## Systematic mappings between semantic categories of concepts and types of iconic representations in the manual modality: a normed database of silent gesture
 
-**Repository ID:** dxc97
+**Repository ID:** w4apb
 
-**Description:** This project contains materials, pre-registrations, data and code for the manuscript "Lasting effects of the COVID-19 pandemic on language processing", published in PLOS ONE: https://doi.org/10.1371/journal.pone.0269242
+**Description:** This is a database of professionally filmed videos of elicited silent gestures, their iconicity ratings, and a description of their structure (hand configuration, location, movement, orientation).
 
-**Created:** 2020-06-20T16:35:29.169789
+**Created:** 2018-10-30T16:50:19.271978
 
-**Last Modified:** 2024-11-04T14:01:38.228416
-
-**Public:** Yes
-
----
-
-## From Real-Time Measures to Real World Differences:  New [and Old] Statistical Approaches to Individual Differences in Real-Time Language Processing
-
-**Repository ID:** q8s4p
-
-**Description:** 
-
-**Created:** 2024-10-24T02:45:03.380069
-
-**Last Modified:** 2024-10-24T02:49:08.046099
-
-**Public:** Yes
-
----
-
-## Examining how topicality impacts pronoun resolution in second language processing
-
-**Repository ID:** zrxbj
-
-**Description:** 
-
-**Created:** 2024-06-17T03:27:28.559963
-
-**Last Modified:** 2024-10-20T03:52:04.080867
+**Last Modified:** 2024-06-07T13:03:10.933359
 
 **Public:** Yes
 
 ### Files
 
-- **Name:** Picture verification data_all.xlsx
-  - **Size:** 158615 bytes
-  - **Created:** 2024-06-28T04:12:13.207044Z
-  - **Last Modified:** 2024-06-28T04:12:13.207044
-  - **Download Link:** [https://osf.io/download/utp98/](https://osf.io/download/utp98/)
+- **Name:** Raw data iconicity ratings.xlsx
+  - **Size:** 25007 bytes
+  - **Created:** 2018-10-31T11:43:17.852341Z
+  - **Last Modified:** 2018-10-31T11:43:17.852341
+  - **Download Link:** [https://osf.io/download/8xezg/](https://osf.io/download/8xezg/)
 
-- **Name:** Eyemovement data_all.xlsx
-  - **Size:** 152560 bytes
-  - **Created:** 2024-06-28T04:12:18.002417Z
-  - **Last Modified:** 2024-06-28T04:12:18.002417
-  - **Download Link:** [https://osf.io/download/ajuk2/](https://osf.io/download/ajuk2/)
+- **Name:** Appendix III.xlsx
+  - **Size:** 15835 bytes
+  - **Created:** 2018-10-31T15:24:33.400672Z
+  - **Last Modified:** 2018-10-31T15:24:33.400672
+  - **Download Link:** [https://osf.io/download/wy7cx/](https://osf.io/download/wy7cx/)
+
+- **Name:** Appendix II.xlsx
+  - **Size:** 13446 bytes
+  - **Created:** 2018-11-20T15:56:51.697815Z
+  - **Last Modified:** 2018-11-20T15:56:51.697815
+  - **Download Link:** [https://osf.io/download/sfa37/](https://osf.io/download/sfa37/)
 
 ---
 
-## Applications of Natural Language Processing in Early Language Intervention Research
+## The Neural Representations of Movement across Semantic Categories
 
-**Repository ID:** 493nd
+**Repository ID:** fkt8c
 
 **Description:** 
 
-**Created:** 2024-10-09T19:33:33.218307
+**Created:** 2019-03-18T16:11:25.251405
 
-**Last Modified:** 2024-10-15T16:26:40.269264
-
-**Public:** Yes
-
----
-
-## Effects of L1 island-constraints on language processing in an L2
-
-**Repository ID:** f275d
-
-**Description:** Based on the active-gap filling strategy that has been thoroughly examined in the literature, this study sets out to examine whether native Vietnamese speakers try to posit a gap in an embedded relative clause (a wh-island). We will do this by manipulating the plausibility effects between the matrix subject and the embedded verb.
-
-**Created:** 2024-10-06T22:00:01.055152
-
-**Last Modified:** 2024-10-14T18:43:31.698375
+**Last Modified:** 2023-05-08T14:08:57.385869
 
 **Public:** Yes
 
 ---
 
-## Language processing in Aphasia: Insights from decades of research and neuroimaging techniques
+## Reward enhancement of item-location associative memory spreads within semantic categories
 
-**Repository ID:** nt72v
+**Repository ID:** zv4ah
 
-**Description:** Aphasia, a debilitating language disorder resulting from brain damage, primarily affects language comprehension and production, posing challenges to speech, reading, and writing. Research on language processing in aphasia has evolved significantly, with contributions from neuroimaging techniques, cognitive rehabilitation, and neurocognitive models. Objective: This bibliometric study systematically analyzes the development of research on language processing in aphasia from 1989 to 2024. It aims to identify key trends, influential studies, collaborative networks, and emerging areas of inquiry
+**Description:** We tested whether reward enhances memory for item-location context and also how the effect of reward may spread to other semantically-related but un-rewarded items.
 
-**Created:** 2024-10-01T14:51:24.948449
+**Created:** 2022-06-07T22:01:17.003407
 
-**Last Modified:** 2024-10-04T05:03:25.083448
-
-**Public:** Yes
-
----
-
-## Computational Modeling in Human-Computer Interaction (2024)
-
-**Repository ID:** f856k
-
-**Description:** This seminar module provides an introduction for students who are looking for a basic but applicable understanding of computational approaches in the field of Human-Computer Interaction (HCI) and want to conduct their own independent research project in the field of computational user modeling. The initial lectures provide a compact overview of the research field of human-machine interaction and present current research highlights. Furthermore, students are taught the basics of scientific working and writing. Based on these basics, students will write independent research papers in groups. 
-
-
-**Created:** 2024-07-12T12:38:45.056527
-
-**Last Modified:** 2024-12-18T10:28:05.430652
+**Last Modified:** 2022-06-08T21:24:46.307672
 
 **Public:** Yes
 
 ---
 
-## Computational Modeling of Fluctuations in Multistable Perception
+## Which cognitive functions subserve clustering and switching in category fluency? Generalizations from an extended set of semantic categories using linear mixed-effects modelling
 
-**Repository ID:** wrp69
-
-**Description:** Provides Matlab scripts and instructions to simulate fluctuations in multistable perception based on the Necker Cube paradigm. The classical connectionist model of the Necker Cube (Feldman, 1981; McClelland, 2015) effectively explains how ambiguity is resolved within a constraint-satisfaction framework. However, it is an unrealistic model at the behavioral level, since once the activation of a percept is reached, the system remains in it endlessly, which is contrary to the human perceptual experience where fluctuations are experienced. We extended this model to capture fluctuations in perception by incorporating and integrating biological and neurocomputational notions that could explain the changes between attractors and fluctuations in perception. The biologically relevant processing constraints are: neural noise (Deco &amp; Romo, 2008; Moreno-Bote et al., 2007); interaction of bottom-up/top-down processes (Kornmeier et al., 2009); and balance between excitation and inhibition (Kondo et al., 2018). This approach is integrative because it includes numerous mechanisms underlying perceptual fluctuations, which are often studied in isolation, as well as it can be a tool to explore perceptual processes in typical and atypical populations.
-
-**Created:** 2023-08-07T14:58:22.867633
-
-**Last Modified:** 2024-12-10T02:29:52.493256
-
-**Public:** Yes
-
----
-
-## Validity from a Computational Modeling Perspective
-
-**Repository ID:** sjwe2
+**Repository ID:** 5ecty
 
 **Description:** 
 
-**Created:** 2024-11-29T07:51:35.531222
+**Created:** 2019-01-08T15:44:50.078963
 
-**Last Modified:** 2024-12-04T13:21:58
-
-**Public:** Yes
-
----
-
-## Cognitive Mechanisms of Aberrant Self-Referential Social Perception in Psychosis and Bipolar Disorder: Insights from Computational Modeling
-
-**Repository ID:** x5n93
-
-**Description:** Supporting code and data for Lasagna et al. 2024: "Cognitive Mechanisms of Aberrant Self-Referential Social Perception in Psychosis and Bipolar Disorder: Insights from Computational Modeling". Code and outputs also available at: https://github.com/CarlyLasagna/gazeddm_sz_bd. 
-
-Lasagna CA, Tso IF, Blain SD, Pleskac TJ. Cognitive Mechanisms of Aberrant Self-Referential Social Perception in Psychosis and Bipolar Disorder: Insights From Computational Modeling. Schizophr Bull. 2024 Sep 11:sbae147. doi: 10.1093/schbul/sbae147. 
-
-**Created:** 2023-10-20T15:51:15.121364
-
-**Last Modified:** 2024-11-24T18:05:17.719885
-
-**Public:** Yes
-
----
-
-## Enhancing TVA with Bayesian methods using RStanTVA: New insights into computational modeling of visual attention (Poster for Math Psych @ Psynom 2024)
-
-**Repository ID:** kuxbh
-
-**Description:** 
-
-**Created:** 2024-11-19T16:57:28.211870
-
-**Last Modified:** 2024-11-21T16:29:48.946912
-
-**Public:** Yes
-
----
-
-## Hybrid-WM: Computational modeling of two-stage task
-
-**Repository ID:** c2e3x
-
-**Description:** 
-
-**Created:** 2024-05-19T12:41:55.104571
-
-**Last Modified:** 2024-10-09T00:21:01.039817
-
-**Public:** Yes
-
----
-
-## SM to: Is there a bilingual disadvantage for word segmentation? A computational modeling approach
-
-**Repository ID:** qgk9m
-
-**Description:** Please read wiki for explanation.
-
-**Created:** 2017-01-23T00:40:07.865000
-
-**Last Modified:** 2022-03-30T17:59:39.123941
-
-**Public:** Yes
-
----
-
-## What Processing and Computational Modeling Can Tell Us about Syntax: The Case of Persian Relative Clauses
-
-**Repository ID:** gc6t9
-
-**Description:** 
-
-**Created:** 2019-03-31T15:27:44.207873
-
-**Last Modified:** 2019-04-01T05:58:46.106602
-
-**Public:** Yes
-
----
-
-## Computational Modeling of Regional Dynamics of Pandemic Behavior using Psychologically Valid Agents
-
-**Repository ID:** wb5vm
-
-**Description:** 
-
-**Created:** 2024-05-01T19:39:43.629359
-
-**Last Modified:** 2024-09-12T14:50:21.043450
-
-**Public:** Yes
-
----
-
-## Computational modeling of PRL
-
-**Repository ID:** x7eq2
-
-**Description:** 
-
-**Created:** 2024-03-11T05:49:31.603791
-
-**Last Modified:** 2024-08-18T14:43:21.344566
-
-**Public:** Yes
-
----
-
-## Predicting psychosis using social media and natural language processing: Potentials and pitfalls
-
-**Repository ID:** s5qmj
-
-**Description:** 
-
-**Created:** 2024-11-18T15:18:23.002162
-
-**Last Modified:** 2024-11-18T15:18:23.002162
-
-**Public:** Yes
-
----
-
-## Applications of Natural Language Processing in Early Language Intervention Research
-
-**Repository ID:** 493nd
-
-**Description:** 
-
-**Created:** 2024-10-09T19:33:33.218307
-
-**Last Modified:** 2024-10-15T16:26:40.269264
-
-**Public:** Yes
-
----
-
-## Natural language processing reveals vulnerable mental health support groups and heightened health anxiety on Reddit during COVID-19.
-
-**Repository ID:** 7peyq
-
-**Description:** 
-
-**Created:** 2020-06-20T18:47:46.524580
-
-**Last Modified:** 2021-03-22T00:22:37
-
-**Public:** Yes
-
----
-
-## Master's Thesis Jon Gorlo - Title: Quantifying Creativity in Text Utilizing Metrics from Natural Language Processing
-
-**Repository ID:** vt2sc
-
-**Description:** 
-
-**Created:** 2024-07-27T13:20:14.488693
-
-**Last Modified:** 2024-09-16T18:38:55.226428
-
-**Public:** Yes
-
----
-
-## Using Natural Language Processing to Predict Job Satisfaction and Turnover Intention
-
-**Repository ID:** 3tq2s
-
-**Description:** This study aims to utilize advanced data science techniques, specifically Natural Language Processing (NLP), to predict job satisfaction–a construct traditionally assessed through standardized Likert-scale questionnaires or extensive interviews. Our primary objective is to explore the predictive capacity of sentiment analysis using the deep learning model BERT (Bidirectional Encoder Representations from Transformers) for job satisfaction levels, as measured by established job satisfaction scales, and to extend this analysis to predict turnover intention.
-
-**Created:** 2024-01-28T19:47:17.843937
-
-**Last Modified:** 2024-09-12T18:50:48.306432
-
-**Public:** Yes
-
----
-
-## Exploring Public Sentiments of Psychedelics Versus Other Drugs: A Reddit-Based Natural Language Processing Study
-
-**Repository ID:** bya7h
-
-**Description:** 
-
-**Created:** 2024-07-19T07:54:56.910750
-
-**Last Modified:** 2024-09-01T15:57:17.544297
-
-**Public:** Yes
-
----
-
-## Workplace Violence: Analyzing Social Networking Messages to Identify Workplace Harassment Cases via Natural Language Processing
-
-**Repository ID:** yd34b
-
-**Description:** The document outlines research aimed at developing a natural language processing (NLP) framework for identifying workplace harassment within social networking messages, addressing the limitations of manual reporting systems. The project seeks to create a harassment analysis and reporting framework that can proactively identify and categorize instances of workplace harassment, fostering a safer work environment.
-
-**Created:** 2024-07-30T14:59:16.903959
-
-**Last Modified:** 2024-08-15T15:51:12.733959
-
-**Public:** Yes
-
----
-
-## Text: An R-package for Analyzing and Visualizing Human Language Using Natural Language Processing and Deep Learning
-
-**Repository ID:** dgczt
-
-**Description:** 
-
-**Created:** 2022-02-13T15:28:45.515005
-
-**Last Modified:** 2024-07-27T06:59:29.986380
+**Last Modified:** 2020-04-24T15:10:16.601182
 
 **Public:** Yes
 
 ### Files
 
-- **Name:** scalar.csv
-  - **Size:** 38711 bytes
-  - **Created:** 2022-12-18T10:28:24.988276Z
-  - **Last Modified:** 2022-12-18T10:28:24.988276
-  - **Download Link:** [https://osf.io/download/axvue/](https://osf.io/download/axvue/)
-
-- **Name:** rpca_roberta_768_D_20.csv
-  - **Size:** 15040040 bytes
-  - **Created:** 2022-12-18T10:28:26.758355Z
-  - **Last Modified:** 2022-12-18T10:28:26.758355
-  - **Download Link:** [https://osf.io/download/fkp9t/](https://osf.io/download/fkp9t/)
+- **Name:** CognitiveScore.xlsx
+  - **Size:** 25246 bytes
+  - **Created:** 2020-04-18T15:31:12.173287Z
+  - **Last Modified:** 2020-04-18T15:31:12.173287
+  - **Download Link:** [https://osf.io/download/p7t5v/](https://osf.io/download/p7t5v/)
 
 ---
 
-## Detecting Deception through Linguistic Cues: from Reality Monitoring to Natural Language Processing
+## Category norms with a cross-sectional sample of adults in the United States: Consideration of cohort, age, and historical effects on semantic categories
 
-**Repository ID:** usz26
+**Repository ID:** 7ehs3
 
-**Description:** In this repository, you will find the data and the script employed to run the analyses for this study.
+**Description:** This paper describes normative data for newly collected exemplar responses to 70 semantic categories described in previous norming studies (Battig &amp; Montague, 1969; Van Overschelde, Rawson, &amp; Dunlosky, 2004; Yoon et al., 2004). These categories were presented to 246 Young (18 – 39 years), Middle (40 – 59 years), and Older (60 years and older) English-speaking adults living in the United States who were asked to generate as many category exemplars as possible for each of the 70 categories. In order to understand differences in normative responses, we analyzed these responses a) between age groups within the current sample and b) in comparison to three previously-published sets of norms.  Experimental studies using such norms typically assume invariance of normative likelihoods across age and historical time. We replicate previous findings such that exemplar frequency correlations suggest moderate stability in generated category members between age groups and cohorts for many, but not all, categories. Further, analyses of rank order correlations highlight that the traditional measure of typicality may not capture all aspects of typicality, namely that for some categories there is high consistency in the frequency of exemplars across age groups and/or norms, but the ordering of those exemplars differs significantly. We include a cluster analysis to aid in grouping categories based on relative stability across time, cohort, and age groups. These results emphasize the importance of maintaining and updating age-differentiated category norms.
 
-**Created:** 2024-05-16T13:44:18.757876
+**Created:** 2020-04-21T20:40:03.416415
 
-**Last Modified:** 2024-07-22T17:08:44.003595
+**Last Modified:** 2020-04-23T15:07:49.318643
+
+**Public:** Yes
+
+---
+
+## Whole Object Bias Impacts Language Evolution: A Bilingual Iterated Learning Experiment
+
+**Repository ID:** d3v2s
+
+**Description:** 
+
+**Created:** 2024-12-02T18:30:03.584239
+
+**Last Modified:** 2024-12-02T19:03:22.257864
+
+**Public:** Yes
+
+---
+
+## From language development to language evolution: A unified view of human lexical creativity
+
+**Repository ID:** zkgu3
+
+**Description:** 
+
+**Created:** 2022-08-19T09:27:09.494267
+
+**Last Modified:** 2023-07-28T11:54:37.883730
+
+**Public:** Yes
+
+---
+
+## How useful are creoles in language evolution research? Evaluating cross-linguistic universals of word order and argument marking
+
+**Repository ID:** t8dqb
+
+**Description:** 
+
+**Created:** 2017-04-04T09:19:41.258145
+
+**Last Modified:** 2024-09-13T18:27:59.195846
+
+**Public:** Yes
+
+---
+
+## Language Evolution Research and Its Representation in Introductory Linguistics Textbooks
+
+**Repository ID:** 5ta7x
+
+**Description:** A project investigating the representation of language evolution in introductory linguistics textbooks
+
+**Created:** 2022-04-01T19:20:46.964437
+
+**Last Modified:** 2024-05-07T11:02:00.895736
+
+**Public:** Yes
+
+---
+
+## Phonesthemes, word processing, and language evolution
+
+**Repository ID:** sna92
+
+**Description:** 
+
+**Created:** 2022-05-25T00:07:47.483526
+
+**Last Modified:** 2023-03-13T13:32:38.828735
 
 **Public:** Yes
 
 ### Files
 
-- **Name:** preprocessed_texts.csv
-  - **Size:** 291758 bytes
-  - **Created:** 2024-05-22T11:41:36.720712Z
-  - **Last Modified:** 2024-05-22T11:41:36.720712
-  - **Download Link:** [https://osf.io/download/gm82s/](https://osf.io/download/gm82s/)
+- **Name:** Exp2.csv
+  - **Size:** 537531 bytes
+  - **Created:** 2022-06-01T21:30:18.819434Z
+  - **Last Modified:** 2022-06-01T21:30:18.819434
+  - **Download Link:** [https://osf.io/download/5q63w/](https://osf.io/download/5q63w/)
+
+- **Name:** Exp1.csv
+  - **Size:** 419940 bytes
+  - **Created:** 2022-06-01T21:30:23.755371Z
+  - **Last Modified:** 2022-06-01T21:30:23.755371
+  - **Download Link:** [https://osf.io/download/bxtq6/](https://osf.io/download/bxtq6/)
 
 ---
 
-## Exploring Generative AI and Natural Language Processing to Develop Search Strategies for Systematic Reviews
+## Clocks with bursts: Phylogenetic inference of schismogenesis in language evolution
 
-**Repository ID:** b4pza
+**Repository ID:** 8m3rj
+
+**Description:** Supplementary material for a paper submitted to Royal Society Open Science
+
+**Created:** 2022-07-05T12:00:50.425263
+
+**Last Modified:** 2022-07-06T10:33:30.516168
+
+**Public:** Yes
+
+---
+
+## Supplemental materials for preprint: Universal attractors in language evolution provide evidence for the kinds of efficiency pressures involved
+
+**Repository ID:** pmj83
 
 **Description:** 
 
-**Created:** 2024-07-18T15:00:59.227224
+**Created:** 2022-01-25T16:04:13.563546
 
-**Last Modified:** 2024-07-18T15:10:18.209309
-
-**Public:** Yes
-
----
-
-## Performance of machine learning algorithms in diffusion tensor imaging of movement disorders : a systematic review and meta analysis
-
-**Repository ID:** hujrc
-
-**Description:** Performance of machine learning algorithms in diffusion tensor imaging of movement disorders : a systematic review and meta analysis
-
-**Created:** 2024-09-11T08:26:10.051704
-
-**Last Modified:** 2024-10-25T13:54:37.252817
+**Last Modified:** 2022-01-25T16:04:13.563546
 
 **Public:** Yes
 
 ---
 
-## Strategizing AI Utilization for Psychological Literature Screening: A Comparative Analysis of Machine Learning Algorithms and Key Factors to Consider
+## Animism and Language Evolution
 
-**Repository ID:** 53ter
+**Repository ID:** 6k729
 
-**Description:** With the rapid growth of scholarly literature, efficient AI-aided abstract screening tools are becoming increasingly important. This study evaluated nine different machine learning algorithms used in AI-aided screening tools for ordering abstracts according to their estimated relevance. We focused on assessing their performance in terms of the number of abstracts required to screen to achieve a sufficient detection rate of relevant articles. Our evaluation centered on abstracts from the field of psychology, covering different research domains within this discipline. We explored how characteristics of the screening data, such as the proportion of relevant articles, the overall frequency of abstracts, and the amount of training data influenced the effectiveness of these algorithms. A key finding was that the algorithm combining the logistic regression classifier with the SBERT feature extractor outperformed other algorithms, demonstrating both the highest efficiency and the lowest variability in performance. Nonetheless, the algorithm's performance varied across experimental conditions. We discussed the results and derived practical recommendations to guide users in the AI-aided screening process.
+**Description:** Animism and Language Evolution
 
-**Created:** 2024-05-22T15:21:56.880068
+**Created:** 2021-11-03T22:34:33.467618
 
-**Last Modified:** 2024-10-16T08:15:22.265871
-
-**Public:** Yes
-
----
-
-## Multimodal evaluation and findings related to Aphasia recovery in chronic stroke patients using machine learning algorithms: a systematic review and meta-analysis
-
-**Repository ID:** m7hxc
-
-**Description:** Multimodal evaluation and findings related to Aphasia recovery in chronic stroke patients using machine learning algorithms: a systematic review and meta-analysis
-
-**Created:** 2024-08-13T16:58:14.222820
-
-**Last Modified:** 2024-08-16T05:02:47.317404
+**Last Modified:** 2021-11-03T22:42:36.489837
 
 **Public:** Yes
 
 ---
 
-## OBMLA-IID: Ontology-based Machine Learning Algorithms for the Internet Infrastructure Domain
+## Why is scaling up models of language evolution hard?
 
-**Repository ID:** gxra7
-
-**Description:** Collaborative environment to build an Ontology, and a fabric of Machine Learning Algorithms for the Internet Infrastructure Domain
-
-**Created:** 2024-04-18T12:21:59.697003
-
-**Last Modified:** 2024-08-12T10:23:22.522936
-
-**Public:** Yes
-
----
-
-## Using machine learning algorithms to build prediction models for well-being: A data-driven approach using genetic, environmental, and psychosocial predictors
-
-**Repository ID:** zphw8
-
-**Description:** Overall, life-time prevalence rates of mental health problems are around 30-50% in many countries (Andrade et al., 2000; Kessler et al., 2007), imposing a heavy burden on individuals, families, and communities, accompanied with high health costs related to screening, prevention, and treatment (GBD 2019 Mental Disorders Collaborators, 2022). Previous studies have built prediction models to be able to increase detection and prevention success, and to increase knowledge on possible risk factors of mental illness (Dwyer et al., 2018; Macalli et al., 2021; Tate et al., 2022; H. Yang et al., 2010). Mental health, however, includes both mental illness and well-being. That is, well-being is not simply the absence of mental illness (Keyes, 2002). To assure that our society remains resilient it is therefore also important to develop optimal risk prediction models for well-being, to be able to predict who will thrive and understand why this is the case (Oparina et al., 2022). This information can be valuable for well-being interventions. 
-      Previous research on mental health issues have provided us with possible risk factors, that are also relevant for well-being. First, mental health in adulthood has its developmental origins in childhood and adolescence, as indicated by associations with childhood psychopathology, making the availability of longitudinal data crucial (Lahey et al., 2014; Rutter et al., 2006). Second, mental health traits (e.g., depression, life satisfaction, positive affect) are partly driven by thousands of genetic variants with many small but relevant effects, many of which are shared across disorders (Baselmans, van de Weijer, et al., 2019; Kim et al., 2022; Meng et al., 2022; Thorp et al., 2021). Third, many environmental exposures are associated with mental health, examples including socio-economic status, childhood maltreatment, substance use, urbanicity and life events (Uher &amp; Zwicker, 2017). Just as is seen for genetic effects, environmental effects for mental health and well-being overlap. Finally, environmental factors interact with genetic effects on mental health (Assary et al., 2018; Dunn et al., 2016; Uher &amp; Zwicker, 2017).
-      Together, a complex picture of mental health development emerges. Optimal prediction thus likely requires a broad inclusion of possible and protective risk factors, which may lead to the identification of the most relevant factors associated with mental health. This in turn could lead to individualized prediction models for individuals’ future mental health status (Bzdok et al., 2021). Given the multitude of factors associated with mental health, accurate prediction requires appropriate methods that can deal with high complexity. The rise of big data has led to the development of machine learning methods that enable the inclusion of large numbers of variables, while accounting for their potential interactions, consistent with the consensus that mental health results from complex interactions between developmental, social, psychological, genetic, and environmental factors. Recent developments in digitalization and record linkage have further made it increasingly possible to expand our environmental scope by including more objective environmental exposures (e.g., air pollution, green spaces) in mental health models (van de Weijer et al., 2021). Previous machine learning studies on responses to anti-depressants (Taliaz et al., 2021), rehospitalization after depressive episodes (Cearns et al., 2019), and resilience after cancer diagnoses (Kourou et al., 2021) have indeed shown that models including different data modalities outperform models including a single set of predictors. In line with the multi-factorial nature of well-being, a recent study further found that expanding the set of predictive features increased the performance of the models for well-being considerably (Oparina et al., 2022).
-Recent developments have thus paved the way for more accurate predictions for mental health related traits (Dwyer et al., 2018). However, many studies are conducted using clinical samples, i.e., when treatment is already sought, limiting their external validity and practical usefulness, especially for prevention. In addition, most studies focused on mental illness, rather than on mental health and well-being (Macalli et al., 2021; Tate et al., 2022). At the same time, machine learning prediction studies in population samples largely failed to take an integrative approach meaning that either cross-sectional data were used, or environmental exposures and/or genetic data were limited or missing (Dwyer et al., 2018; Macalli et al., 2021; Oparina et al., 2022; Tate et al., 2022; H. Yang et al., 2010). This may explain why predictive accuracies have not reached the standards needed for clinical use yet (Runeson et al., 2017). In the current project, we will overcome these caveats by building prediction models for well-being with extensive longitudinal data on environmental and psychosocial factors, and genetic data. More specifically, by using an extensive set of predictors and utilizing novel machine learning methods that enable the combined use of multiple prediction models (stacked ensemble model; see below), we aim to build a highly generalizable, comprehensive prediction model for well-being, which can inform future models for clinical prediction and decision-making, hereby preparing society for future mental health challenges.
-
-**Created:** 2022-08-15T14:22:55.806646
-
-**Last Modified:** 2024-05-24T14:10:46.366108
-
-**Public:** Yes
-
----
-
-## ANALYSIS ON THE PLANNING FEATURE OF SAP ANALYTICS CLOUD WITH ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING ALGORITHMS
-
-**Repository ID:** kwf52
+**Repository ID:** bhjqe
 
 **Description:** 
 
-**Created:** 2024-05-24T02:07:51.559000
+**Created:** 2021-02-03T23:27:16.210397
 
-**Last Modified:** 2024-05-24T02:15:35.124724
-
-**Public:** Yes
-
----
-
-## CREDIT CARD FRAUD DETECTION AND ANALYSIS USING MACHINE LEARNING ALGORITHMS
-
-**Repository ID:** 5mfwa
-
-**Description:** Increase in the number of customers since last decade for credit card usage. The customer’s without prior approval many frauds have been detected. The unethical use of credit cards by hackers or credit cards users unwilling to pay back the amount are known as the major credit card frauds. The credit card transactions should be detected earlier by statistical methods if any fraud has been detected. The various algorithms in the machine learning are used to analyze the patterns and frauds. This helps the bank to eliminate the frauds by declining suspected transactions.
-
-**Created:** 2021-05-17T12:52:02.007781
-
-**Last Modified:** 2024-05-18T11:35:31.127206
+**Last Modified:** 2021-05-14T08:12:11.614696
 
 **Public:** Yes
 
 ---
 
-## Evaluating Underlying Factor Structures using Novel Machine Learning Algorithms: An Empirical and Simulation Study
+## Language evolution: the earliest words and sentences
 
-**Repository ID:** d5xbe
+**Repository ID:** j3xpk
+
+**Description:** Presentation held at the Linguistisches Kolloquium, Philipps University of Marburg, Institute for German Linguistics (online), 2021/02/03
+
+**Created:** 2021-02-21T10:55:10.991885
+
+**Last Modified:** 2021-05-08T22:15:03.889141
+
+**Public:** Yes
+
+---
+
+## Supplementary data for "Cognitive Linguistics" chapter
+
+**Repository ID:** 754xa
+
+**Description:** A repository for the supplementary data for the "Cognitive Linguistics" chapter for the second edition of The Routledge Handbook of Linguistics.
+
+**Created:** 2024-09-25T16:17:44.977408
+
+**Last Modified:** 2024-09-27T16:40:22.120409
+
+**Public:** Yes
+
+---
+
+## Cognitive Linguistics - Inferences about Event Outcomes Influence Text-based Memory for Event Outcomes 
+
+**Repository ID:** k4sm3
+
+**Description:** Extra explanations, R codes, extra tables, raw data, materials, and figures
+
+**Created:** 2023-03-24T11:36:49.932056
+
+**Last Modified:** 2024-09-15T23:09:27.336000
+
+**Public:** Yes
+
+### Files
+
+- **Name:** Experiment 1 Data.xlsx
+  - **Size:** 51462 bytes
+  - **Created:** 2024-03-28T00:21:10.292150Z
+  - **Last Modified:** 2024-03-28T00:21:10.292150
+  - **Download Link:** [https://osf.io/download/y7ah2/](https://osf.io/download/y7ah2/)
+
+- **Name:** Experiment 2 Data.xlsx
+  - **Size:** 144542 bytes
+  - **Created:** 2024-03-28T00:21:11.212185Z
+  - **Last Modified:** 2024-03-28T00:21:11.212185
+  - **Download Link:** [https://osf.io/download/zwvjb/](https://osf.io/download/zwvjb/)
+
+- **Name:** Naturalness Rating Data for Stimuli.xlsx
+  - **Size:** 20697 bytes
+  - **Created:** 2024-03-28T00:21:13.992480Z
+  - **Last Modified:** 2024-03-28T00:21:13.992480
+  - **Download Link:** [https://osf.io/download/rqhzw/](https://osf.io/download/rqhzw/)
+
+- **Name:** Experiment 2 Experimental vs. Control Data.xlsx
+  - **Size:** 105614 bytes
+  - **Created:** 2024-03-28T00:21:14.210499Z
+  - **Last Modified:** 2024-03-28T00:21:14.210499
+  - **Download Link:** [https://osf.io/download/yf2c5/](https://osf.io/download/yf2c5/)
+
+---
+
+## A BAYESIAN APPROACH TO (RE)EXAMINING LEARNING EFFECTS OF COGNITIVE LINGUISTICS INSPIRED INSTRUCTION: A CLOSE REPLICATION OF WONG, ZHAO, AND MACWHINNEY (2018)
+
+**Repository ID:** fxb89
 
 **Description:** 
 
-**Created:** 2022-06-11T00:58:10.240512
+**Created:** 2024-08-11T14:47:24.073040
 
-**Last Modified:** 2024-01-30T21:27:57.531598
-
-**Public:** Yes
-
----
-
-## Unveiling Adolescent Suicidality: Holistic Analysis of Protective and Risk Factors Using Multiple Machine Learning Algorithms
-
-**Repository ID:** agsfy
-
-**Description:** Repository of a machine learning a project on Norwegian adolescents
-
-**Created:** 2023-10-01T16:43:43.396138
-
-**Last Modified:** 2023-10-16T17:58:08.663126
+**Last Modified:** 2024-09-14T22:33:42.239124
 
 **Public:** Yes
 
 ---
 
-## MACHINE LEARNING ALGORITHMS AND SHAPLEY ADDITIVE EXPLAINABILITY FOR PREDICTING PLAYER PERFORMANCE IN CRICKET
+## Supplementary data for Wolter, et al., Cognitive Linguistics
 
-**Repository ID:** hbpt8
-
-**Description:** Cricket is a well-liked sport that has enthralled millions of fans worldwide with its fascinating history and action-packed games. An increasing number of people are interested in using data analytics and machine learning to forecast and evaluate cricket player performance. The use of Shapley Additive Explainability to acquire understanding of the elements influencing these predictions is highlighted in this paper’s investigation of the usage of machine learning techniques for player performance prediction in cricket. Machine learning models were developed to predict the performance of batters and bowlers using previous cricket data. These models were selected because they have ensemble learning and gradient boosting features that are suitable for making precise predictions in cricket. Performance metrics were used to assess the models. The findings demonstrated that the models had excellent accuracy and low error values for predicting player performance. Particularly, Light GBM and XGBoost outperformed the Adaboost Regressor model in terms of both batter and bowler predictions. The models’ R2 values demonstrated an excellent fit to the data, capturing a sizeable percentage of the variance in the target variable. The Shapley Additive Explainability framework was used to have a better understanding of the variables affecting the predictions. To assess the significance of each feature in the models, Shapley values were computed. This method revealed the relative importance of traits including opponents’ performance, average venue, average batting average, and strike rate.
-
-**Created:** 2023-10-09T12:55:29.217935
-
-**Last Modified:** 2023-10-09T12:58:51.971861
-
-**Public:** Yes
-
----
-
-## COMPARATIVE LINGUISTICS AND ITS HISTORY
-
-**Repository ID:** e7hqv
-
-**Description:** The article discusses the problem of terminological differentiation of two disciplines as part of comparative linguistics, studying related languages in diachronic (compare historical linguistics) and in synchrony; for terminological marking of the second In this direction, the term "comparative synchronic linguistics" is introduced.
-
-**Created:** 2021-05-20T15:49:42.852381
-
-**Last Modified:** 2024-05-18T11:35:57.409608
-
-**Public:** Yes
-
----
-
-## Theoretical and Experimental Approaches to Comparative Linguistics 
-
-**Repository ID:** ygsqn
-
-**Description:** Two 2023 Workshops on Language and Linguistics: Theoretical and Experimental Approaches to Comparative Linguistics
-
-**Created:** 2023-01-06T09:23:36.108992
-
-**Last Modified:** 2023-03-23T04:56:29.660039
-
-**Public:** Yes
-
----
-
-## Taking the floor in conversation: Observational and experimental phonetic studies
-
-**Repository ID:** ks5y2
+**Repository ID:** gk5cf
 
 **Description:** 
 
-**Created:** 2021-09-13T19:40:04.119064
+**Created:** 2022-10-25T18:05:29.197137
 
-**Last Modified:** 2021-09-27T20:32:49.970092
+**Last Modified:** 2022-10-27T17:46:36.288374
+
+**Public:** Yes
+
+### Files
+
+- **Name:** WLCWY_RT_DT_data.csv
+  - **Size:** 579797 bytes
+  - **Created:** 2022-10-27T17:39:17.492536Z
+  - **Last Modified:** 2022-10-27T17:39:17.492536
+  - **Download Link:** [https://osf.io/download/u63gp/](https://osf.io/download/u63gp/)
+
+- **Name:** WLCWY_logit_data_short.csv
+  - **Size:** 269313 bytes
+  - **Created:** 2022-10-27T17:39:17.518694Z
+  - **Last Modified:** 2022-10-27T17:39:17.518694
+  - **Download Link:** [https://osf.io/download/9fbvg/](https://osf.io/download/9fbvg/)
+
+- **Name:** WLCWY_logit_data_narrow.csv
+  - **Size:** 271198 bytes
+  - **Created:** 2022-10-27T17:39:18.084858Z
+  - **Last Modified:** 2022-10-27T17:39:18.084858
+  - **Download Link:** [https://osf.io/download/8jf75/](https://osf.io/download/8jf75/)
+
+---
+
+## Lexical Expressions of Path Motion in Vietnamese: A Perspective from Cognitive Linguistics
+
+**Repository ID:** b4qr3
+
+**Description:** The aim of this paper is to study the semantics and syntax of lexical expressions of path motion in Vietnamese. This paper is conducted on theory of lexicalization patterns which is related to the conflation of semantic components into linguistic units. The data are the expressions of motion verbs and spatial prepositions which were taken from 12 Vietnamese stories and three novels in the 20th century onward. The result of this paper presents several lexicalization patterns of semantic components conflated into the path verbs and the spatial prepositions. Moreover, this paper takes into account the construction of the grammar of the lexical expressions of path motion in Vietnamese, which refers to speakers’ knowledge of motion utilized to express motion.
+
+**Created:** 2019-07-07T20:17:17.502484
+
+**Last Modified:** 2019-07-07T20:18:44.986419
+
+**Public:** Yes
+
+---
+
+## Supplemental materials for preprint: Regime type and Data Manipulation: Evidence from the COVID-19 Pandemic
+
+**Repository ID:** 6hu54
+
+**Description:** 
+
+**Created:** 2023-06-26T07:39:58.957167
+
+**Last Modified:** 2023-06-26T07:41:45.496078
+
+**Public:** Yes
+
+---
+
+## Y21 Myopia Survey Data Manipulation and Analysis
+
+**Repository ID:** 9u7ed
+
+**Description:** 
+
+**Created:** 2022-10-25T14:39:42.099895
+
+**Last Modified:** 2022-11-29T03:31:57.448787
+
+**Public:** Yes
+
+---
+
+## Syntax and Output for Data Manipulation and Analysis
+
+**Repository ID:** tyn5q
+
+**Description:** Syntax for analysis and recoding, and descriptions of the dataset
+
+**Created:** 2017-01-24T17:30:41.886000
+
+**Last Modified:** 2022-07-25T00:44:54.668474
+
+**Public:** Yes
+
+### Files
+
+- **Name:** predicted and observed results.xlsx
+  - **Size:** 10188 bytes
+  - **Created:** 2017-02-01T15:37:07.928000Z
+  - **Last Modified:** 2017-02-01T15:37:07.928000
+  - **Download Link:** [https://osf.io/download/5fx42/](https://osf.io/download/5fx42/)
+
+- **Name:** output_1.28.17_final_exclusion.xlsx
+  - **Size:** 47568 bytes
+  - **Created:** 2017-01-29T03:22:13.313000Z
+  - **Last Modified:** 2017-01-29T03:22:13.313000
+  - **Download Link:** [https://osf.io/download/jxvyc/](https://osf.io/download/jxvyc/)
+
+- **Name:** output_1.28.17_allages.xlsx
+  - **Size:** 46018 bytes
+  - **Created:** 2017-01-29T03:22:13.307000Z
+  - **Last Modified:** 2017-01-29T03:22:13.307000
+  - **Download Link:** [https://osf.io/download/gj4cd/](https://osf.io/download/gj4cd/)
+
+---
+
+## Enhanced patient counselling and SMS reminder messages to improve access to community-based eye care services in Meru, Kenya: statistical analysis plan for a Bayesian adaptive trial
+
+**Repository ID:** t3ymf
+
+**Description:** 
+
+**Created:** 2024-12-19T11:41:50.495097
+
+**Last Modified:** 2024-12-21T11:25:41.464143
+
+**Public:** Yes
+
+---
+
+## Statistical Analysis Plan
+
+**Repository ID:** dfxyt
+
+**Description:** 
+
+**Created:** 2024-03-14T21:41:39.526883
+
+**Last Modified:** 2024-12-20T18:44:44.390931
+
+**Public:** Yes
+
+---
+
+## Statistical Analysis
+
+**Repository ID:** 79p4b
+
+**Description:** 
+
+**Created:** 2022-09-16T17:03:18.676277
+
+**Last Modified:** 2024-12-18T17:14:33.034618
+
+**Public:** Yes
+
+---
+
+## Cardiac Rehabilitation Meta-Analysis of Trials in patients with Coronary Heart disease using individual participant data (CaReMATCH): Project protocol and statistical analysis plan
+
+**Repository ID:** jqba7
+
+**Description:** Exercise-based cardiac rehabilitation (CR) has long been one of the cornerstones in the secondary prevention of coronary heart disease (CHD). Despite meta-analyses of randomised trials demonstrating a positive impact of CR on cardiovascular mortality, hospitalisation, exercise capacity and health related quality of life, the impact of CR on all-cause mortality remains uncertain, especially in the context of contemporary clinical practice. Cardiac Rehabilitation Meta-Analysis of Trials in patients with Coronary Heart disease using individual patient data (IPD) (CaReMATCH) is an international collaboration that seeks to provide more definitive estimates regarding the effect of CR on the outcomes of mortality, hospitalisation, exercise capacity, HRQoL in CHD patients.
+
+**Created:** 2023-04-05T11:55:43.475512
+
+**Last Modified:** 2024-12-10T14:43:09.527238
+
+**Public:** Yes
+
+---
+
+## SAPI: Developing a guideline for a Statistical Analysis Plan for Observational Studies with an  Initial data analysis plan
+
+**Repository ID:** zfjah
+
+**Description:** The objective is to develop a checklist for a statistical analysis plan for observational studies that accounts for Initial data analysis and records deviations from initial plans in one document (SAPI).
+
+**Created:** 2024-07-09T16:03:34.739675
+
+**Last Modified:** 2024-11-28T12:02:45.739609
+
+**Public:** Yes
+
+---
+
+## Protocol and Statistical Analysis Plan (SAP)
+
+**Repository ID:** 8usqp
+
+**Description:** 
+
+**Created:** 2023-07-27T10:40:57.464035
+
+**Last Modified:** 2024-11-10T20:54:37.429244
+
+**Public:** Yes
+
+---
+
+## Statistical Analysis Plan
+
+**Repository ID:** vn6ec
+
+**Description:** 
+
+**Created:** 2022-10-24T13:25:23.984854
+
+**Last Modified:** 2024-11-05T20:29:48.191348
+
+**Public:** Yes
+
+---
+
+## Statistical Analysis Plan
+
+**Repository ID:** vbm9g
+
+**Description:** 
+
+**Created:** 2022-08-11T19:31:52.271812
+
+**Last Modified:** 2024-11-05T18:29:06.135910
+
+**Public:** Yes
+
+---
+
+## Statistical analysis plan
+
+**Repository ID:** nkf4x
+
+**Description:** 
+
+**Created:** 2023-12-18T08:08:26.110991
+
+**Last Modified:** 2024-11-05T12:46:57.187841
+
+**Public:** Yes
+
+---
+
+## Statistical analysis
+
+**Repository ID:** 8kjbn
+
+**Description:** 
+
+**Created:** 2024-10-28T20:23:45.930806
+
+**Last Modified:** 2024-10-29T19:54:22.435276
+
+**Public:** Yes
+
+---
+
+## Bilingual children shift and relax phoneme categorization in response to accented and native speech exposure
+
+**Repository ID:** bu8p4
+
+**Description:** 
+
+**Created:** 2022-02-26T07:47:36.533111
+
+**Last Modified:** 2024-12-16T20:33:24.383925
+
+**Public:** Yes
+
+---
+
+## Listeners' convergence towards an artificial agent in a joint phoneme categorization task
+
+**Repository ID:** 6xv3c
+
+**Description:** 
+
+**Created:** 2023-03-16T10:46:12.690130
+
+**Last Modified:** 2023-10-31T11:29:18.807725
+
+**Public:** Yes
+
+---
+
+## PERBANDINGAN ANALISIS STATISTIK MULTIVARIAT PADA BATUBARA DI KABUPATEN TABALONG PROVINSI KALIMANTAN SELATAN MENGGUNAKAN METODE PRINCIPAL COMPONENT ANALYSIS (PCA)
+
+**Repository ID:** 5ja84
+
+**Description:** Analisis proksimat merupakan teknik pengujian yang dilakukan pada batubara yang bertujuan untuk mengetahui kandungan pada batubara.  Secara keseluruhan menggunakan metode kualitatif lalu dilakukan pengklasifikasian batubara menggunakan analisis multivariat dan dilakukan klasifikasi secara visual.
+
+Data yang telah dianalisis berasal dari Kabupaten Tabalong Provinsi Kalimantan Selatan dengan jumlah data sebanyak 150 conto. Dari lokasi Pasuang-Lunai sebanyak 15 conto, dari lokasi Missim sebanyak 13 conto, dan dari lokasi Upau sebanyak 122 conto. Conto tersebut telah dilakukan uji proksimat sehingga diketahui 4 parameternya, yaitu total moisture (lengas), volatile matter (zat terbang), fixed carbon (karbon tertambat) dan kadar abu. Conto-conto tersebut telah dianalisis menggunakan metode Principal Component Analysis (PCA) dengan perangkat lunak R.
+
+Hasil yang didapatkan dengan menggunakan metode Principal Component Analysis (PCA) terdapat 3 klaster yang ada pada lokasi tersebut. Namun terdapat beberapa anomali yang ada. Ada beberapa conto yang seharusnya berada pada klasternya ternyata berada pada klaster yang lain.
+
+**Created:** 2017-08-27T10:36:33.330940
+
+**Last Modified:** 2023-06-30T18:17:24.653424
+
+**Public:** Yes
+
+---
+
+## Principal component analysis suggests multiple dimensions of memory inhibition that are differentially affected by age
+
+**Repository ID:** n3r8u
+
+**Description:** 
+
+**Created:** 2022-12-15T22:09:45.818372
+
+**Last Modified:** 2022-12-15T22:14:37.635528
+
+**Public:** Yes
+
+### Files
+
+- **Name:** Article_data.csv
+  - **Size:** 16650 bytes
+  - **Created:** 2022-12-15T22:11:05.465277Z
+  - **Last Modified:** 2022-12-15T22:11:05.465277
+  - **Download Link:** [https://osf.io/download/gkajn/](https://osf.io/download/gkajn/)
+
+---
+
+## Lecture 11 - Principal Component Analysis, Exploratory Factor Analysis
+
+**Repository ID:** v6zew
+
+**Description:** 
+
+**Created:** 2018-02-01T15:59:50.852813
+
+**Last Modified:** 2022-03-16T14:42:40.351607
+
+**Public:** Yes
+
+---
+
+## Lecture 11 - Principal Component Analysis, Exploratory Factor Analysis
+
+**Repository ID:** mcbd7
+
+**Description:** 
+
+**Created:** 2017-12-15T12:59:12.905370
+
+**Last Modified:** 2022-03-16T14:42:37.645363
+
+**Public:** Yes
+
+---
+
+## Exploring Thermospheric Response to Magnetospheric Forcing Using Principal Component Analysis
+
+**Repository ID:** h3jxw
+
+**Description:** 
+
+**Created:** 2020-09-21T04:21:40.165805
+
+**Last Modified:** 2020-09-21T04:23:41.736210
+
+**Public:** Yes
+
+---
+
+## Using principal component analysis to validate psychological scales
+
+**Repository ID:** sxzh7
+
+**Description:** 
+
+**Created:** 2020-07-08T09:55:26.882195
+
+**Last Modified:** 2020-07-08T10:48:35.774209
+
+**Public:** Yes
+
+---
+
+## PENERAPAN PRINCIPAL COMPONENT ANALYSIS (PCA) DALAM  PENENTUAN FAKTOR DOMINAN YANG MEMPENGARUHI  PENGIDAP KANKER SERVIKS
+
+**Repository ID:** t2xvf
+
+**Description:** Cancer  diagnosis  is  a  frightening  issue  for  patients  and  can  affect  the  patient's  psychological  condition. 
+Therefore,  by  giving  attention  and  psychosocial  support  to  cancer  patients  it  is  expected  to  overcome  the 
+psychological pressure of the patient. Screening is an early detection effort to identify a disease or disorder 
+that is clinically unclear by using certain tests, examinations or procedures. This effort can be used quickly to 
+distinguish people who seem healthy but actually suffer from an abnormality. The purpose of this study is to 
+simplify and eliminate some less relevant screening without reducing the intent and purpose of the original 
+data  using  the  Principal  Component  Analysis  (PCA).  Based  on  the  results  of  research  conducted  from  the 
+UCI  Cervical  Cancer  dataset  repository,  shows  that  there  are  9  dominant  screening  variables  that  have  a 
+large enough correlation to the formation of early detection of cervical cancer with a proportion of 99% of 
+covariance  variance,  including  the  3 highest  factors  very  dominant,  namely  the  age  factor  with  the  first 
+highest  eigenvalue  that  is  76.05  with  the  proportion  of  variance  58.50%,  cigarette  addicts  with  14.90% 
+variance  and  Hormonal  Contraceptives  factor  with 9.3%  variance.  The  total  variance obtained  from  the 9 
+screening variables is 99%.
+
+**Created:** 2019-07-08T00:03:52.255495
+
+**Last Modified:** 2019-07-08T00:08:59.144891
+
+**Public:** Yes
+
+---
+
+## Visualization of classified data with kernel principal component analysis
+
+**Repository ID:** zmwq4
+
+**Description:** Kernel Principal Component Analysis (Kernel PCA) is a  generalization of the ordinary PCA which allows mapping the original data into a high-dimensional feature space. The mapping is expected to address the issues of nonlinearity among variables and separation among classes in the original data space. The key problem in the use of kernel PCA is the parameter estimation used in kernel functions that so far has not had quite obvious guidance, where the parameter selection mainly depends on the objectivity of the research. This study exploited the  use of Gaussian kernel function and focused on the ability of kernel PCA in visualizing the separation of the classified data. Assessments were undertaken based on misclassification obtained by Fisher Discriminant Linear Analysis of the first two principal components. This study results suggest for the visualization of kernel PCA by selecting the parameter in the interval between the closest and the furthest distances among the objects of original data is better than that of ordinary PCA.
+
+**Created:** 2018-01-14T14:34:32.211205
+
+**Last Modified:** 2018-01-14T14:42:49.968357
+
+**Public:** Yes
+
+---
+
+## Data for Principal Component Analysis and Common Factor Analysis
+
+**Repository ID:** zg89r
+
+**Description:** 
+
+**Created:** 2017-06-08T09:52:18.793466
+
+**Last Modified:** 2017-07-05T09:24:42.047304
+
+**Public:** Yes
+
+### Files
+
+- **Name:** Werte.csv
+  - **Size:** 31173 bytes
+  - **Created:** 2017-07-05T09:24:41.816029Z
+  - **Last Modified:** 2017-07-05T09:24:41.816029
+  - **Download Link:** [https://osf.io/download/teymq/](https://osf.io/download/teymq/)
+
+---
+
+## 12_Bayesian mixed-effects models for psychophysical data: A tutorial with R and brms
+
+**Repository ID:** t4n8p
+
+**Description:** 
+
+**Created:** 2019-07-30T13:12:25.350802
+
+**Last Modified:** 2024-09-07T11:10:00.022425
+
+**Public:** Yes
+
+---
+
+## Univariate autoregressive structural equation models as mixed-effects models
+
+**Repository ID:** ztcge
+
+**Description:** This project contaings the R Codes and the data used in the article.
+
+
+**Created:** 2023-03-10T13:05:27.164354
+
+**Last Modified:** 2023-05-08T11:03:35.409518
+
+**Public:** Yes
+
+---
+
+## Mixed-effects models for cognitive development researchers
+
+**Repository ID:** smc72
+
+**Description:** 
+
+**Created:** 2022-11-09T21:39:48.843259
+
+**Last Modified:** 2023-02-18T20:30:22.053681
+
+**Public:** Yes
+
+### Files
+
+- **Name:** cimpianmarkman_study2.csv
+  - **Size:** 3087 bytes
+  - **Created:** 2022-11-21T20:13:20.753967Z
+  - **Last Modified:** 2023-01-20T19:51:12.069551
+  - **Download Link:** [https://osf.io/download/dv5sp/](https://osf.io/download/dv5sp/)
+
+- **Name:** cimpianpark_study1.csv
+  - **Size:** 15408 bytes
+  - **Created:** 2022-11-21T21:22:14.805569Z
+  - **Last Modified:** 2023-01-20T19:51:12.039895
+  - **Download Link:** [https://osf.io/download/98r5c/](https://osf.io/download/98r5c/)
+
+---
+
+## Mismatches in non-maximal mixed-effects models
+
+**Repository ID:** njaup
+
+**Description:** 
+
+**Created:** 2021-06-26T12:33:28.763695
+
+**Last Modified:** 2022-09-15T17:29:03.142297
+
+**Public:** Yes
+
+---
+
+## Before/after Bayes: A comparison of frequentist and Bayesian mixed-effects models in applied psychological research
+
+**Repository ID:** tpfas
+
+**Description:** 
+
+**Created:** 2021-08-23T03:38:11.127012
+
+**Last Modified:** 2022-09-06T23:44:51.580993
+
+**Public:** Yes
+
+### Files
+
+- **Name:** UHC_final.csv
+  - **Size:** 17614 bytes
+  - **Created:** 2021-09-01T02:55:59.162309Z
+  - **Last Modified:** 2021-09-01T02:55:59.162309
+  - **Download Link:** [https://osf.io/download/gwaer/](https://osf.io/download/gwaer/)
+
+- **Name:** AttrWB.csv
+  - **Size:** 2257116 bytes
+  - **Created:** 2021-09-01T02:55:59.617520Z
+  - **Last Modified:** 2021-09-01T02:55:59.617520
+  - **Download Link:** [https://osf.io/download/638m5/](https://osf.io/download/638m5/)
+
+- **Name:** SubjData.csv
+  - **Size:** 13252 bytes
+  - **Created:** 2022-08-12T02:39:06.623765Z
+  - **Last Modified:** 2022-08-12T02:39:06.623765
+  - **Download Link:** [https://osf.io/download/ybzdx/](https://osf.io/download/ybzdx/)
+
+---
+
+## Reanalysis of Block et al. (2021, PNAS) using generalized mixed-effects models
+
+**Repository ID:** swqkf
+
+**Description:** An analysis of the data presented in Block et al. (2021) using glmer
+
+
+**Created:** 2022-06-03T07:56:19.807750
+
+**Last Modified:** 2022-08-08T07:03:18.361809
+
+**Public:** Yes
+
+---
+
+## Consequences of using power transforms as a statistical solution in linear mixed-effects models of chronometric data
+
+**Repository ID:** vyu65
+
+**Description:** 
+
+**Created:** 2018-10-07T18:15:14.611418
+
+**Last Modified:** 2018-10-11T01:02:17.317478
+
+**Public:** Yes
+
+---
+
+## 06 - T. Bernaisch: Comparing generalised linear mixed-effects models, generalised linear mixed-effects model trees and random forests
+
+**Repository ID:** 3akhm
+
+**Description:** Supplementary material for Bernaisch (2022) "Comparing Generalised Linear Mixed-Effects Models, Generalised Linear Mixed-Effects Model Trees and Random Forests." In: Schützler and Schlüter, eds. Data and Methods in Corpus Linguistics: Comparative Approaches. CUP.
+
+**Created:** 2021-03-25T07:30:32.682724
+
+**Last Modified:** 2022-04-30T15:04:23.878905
+
+**Public:** Yes
+
+### Files
+
+- **Name:** pauses.RData
+  - **Size:** 275987 bytes
+  - **Created:** 2021-03-25T10:34:38.512425Z
+  - **Last Modified:** 2021-03-25T10:34:38.512425
+  - **Download Link:** [https://osf.io/download/7msz9/](https://osf.io/download/7msz9/)
+
+- **Name:** pauseglmertree.RData
+  - **Size:** 22211461 bytes
+  - **Created:** 2021-03-25T10:34:43.419900Z
+  - **Last Modified:** 2021-03-25T10:34:43.419900
+  - **Download Link:** [https://osf.io/download/ewuvh/](https://osf.io/download/ewuvh/)
+
+---
+
+## Code to fit mixed-effects models
+
+**Repository ID:** 2yqvj
+
+**Description:** 
+
+**Created:** 2021-11-15T22:03:07.196631
+
+**Last Modified:** 2021-12-03T23:17:01.137599
+
+**Public:** Yes
+
+### Files
+
+- **Name:** gloves_Exp1a_usable_data.csv
+  - **Size:** 37442 bytes
+  - **Created:** 2021-11-15T21:57:46.507318Z
+  - **Last Modified:** 2021-11-16T00:58:40.624750
+  - **Download Link:** [https://osf.io/download/tjn4c/](https://osf.io/download/tjn4c/)
+
+---
+
+## Advancing stereotyping research: How and why to use linear mixed-effects models in gender stereotyping research
+
+**Repository ID:** ru6mh
+
+**Description:** 
+
+**Created:** 2020-07-24T19:31:41.916637
+
+**Last Modified:** 2020-07-24T19:36:59.960277
 
 **Public:** Yes
 

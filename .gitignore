@@ -4,6 +4,8 @@
 /components/__pycache__/browse.cpython-310.pyc
 /components/__pycache__/
 /constants/__pycache__/
+/components/browse.py
+/components/brainstormer.py
 /tmp/analysis/data/*
 /tmp/analysis/plots/*
 /tmp/analysis/analysis.json
@@ -22,3 +24,9 @@ flowchart.drawio
 graph.py
 kaggle.json
 length_exceeded.png
+bottleneck.png
+image.png
+paper.md
+paper.pdf
+get_current_balance.py
+calculate_cost.py

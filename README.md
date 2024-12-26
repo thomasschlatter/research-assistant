@@ -105,6 +105,8 @@ The following environment variables must be set to use the software:
 
 ```bash
 pandoc -s -o tmp/write_up/final_paper.pdf tmp/write_up/final_paper.md
+
+pandoc --citeproc -s -o paper.pdf paper.md --bibliography citations.bib
 ```
 
 ## Common Issues

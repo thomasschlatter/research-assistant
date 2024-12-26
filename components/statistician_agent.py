@@ -23,30 +23,40 @@ def run_analysis_script(venv, max_retries=3):
         try:
             # Create required directories if they don't exist
             os.makedirs("tmp/analysis/plots", exist_ok=True)
+                                  
+            install_required_packages("tmp/analysis/analysis.py")
             
-            # Install required packages
-            packages = ["pandas", "numpy", "scipy", "statsmodels", "matplotlib", "seaborn"]
-            for package in packages:
-                subprocess.run(["pip", "install", package], check=True)
+            # Use python executable from venv directly
+            python_executable = "python" if venv == "python" else venv
             
-            # Run the script
+            # Run the script with explicit python executable
             result = subprocess.run(
-                [venv, "analysis.py"],
+                [python_executable, "analysis.py"],
                 capture_output=True,
                 text=True,
                 check=True,
                 cwd="tmp/analysis"
             )
-            
-            print("Analysis Output:")
+
+            check_and_fix_empty_analysis_json()
+
+            # Check if stdout contains error keywords
+            if "error" in result.stdout.lower():
+                raise subprocess.CalledProcessError(
+                    returncode=1,
+                    cmd=["python", "analysis.py"],
+                    output=result.stdout,
+                    stderr="Error detected in stdout: " + result.stdout
+                )
+
             print(result.stdout)
+            print("Successfully executed script!")
             
             return {
                 "success": True,
                 "output": result.stdout,
                 "error": None
-            }
-            
+            }            
         except subprocess.CalledProcessError as e:
             print(f"Analysis Error:\n{e.stderr}")
             current_try += 1
@@ -99,6 +109,13 @@ def display_folder_tree(folder_path):
     tree += generate_folder_tree(folder_path)
     return tree
 
+def clean_script(script):
+    """Remove docstrings and text between triple quotes from the script."""
+    # Remove triple-quoted strings (both single and double quotes)
+    script = re.sub(r'"""[\s\S]*?"""', '', script)
+    script = re.sub(r"'''[\s\S]*?'''", '', script)
+    return script
+
 def generate_analysis_script(folder_structure, proposal, research_area, data_description, available_tools):
     """
     Generates a Python script for statistical analysis based on the research proposal.
@@ -116,10 +133,7 @@ def generate_analysis_script(folder_structure, proposal, research_area, data_des
     2. Generate appropriate visualizations (if necessary)
     3. Save results in a structured JSON format
     4. Include comprehensive documentation
-    
-    The script can make use these libraries: {available_tools}
-    
-    Workspace absolute path: {workspace_path}
+
     """
     
     response = client.chat.completions.create(
@@ -137,24 +151,31 @@ def generate_analysis_script(folder_structure, proposal, research_area, data_des
             Folder Structure:
             {folder_structure}
             
-            Absolute Workspace Path: {workspace_path}
-
+            The script can make use these libraries: {available_tools}
+            
             The script should:
             1. Load and preprocess the data that is necessary to complete the statistical analysis as mentioned in the proposal 
             2. Use the absolute paths of the files that you want to analyze from the folder structure
             3. Perform relevant statistical tests
-            4. Create visualizations
-            5. Save results to tmp/analysis/analysis.json with the following keys: test_statistics, p_values, effect_sizes, confidence_intervals, plot_paths, plot_captions, summary_statistics
-            6. Save visualizations to 'tmp/analysis/plots/'
+            4. Create visualizations and make sure all the variables are named accordingly
+            5. Save results in a structured JSON format
+            6. Include comprehensive documentation about the analysis and its results in the json file
+
+            IMPORTANT: Keep the analysis simple!
+
+            Workspace absolute path: {workspace_path}
+            - Save results of the analysis in a structured JSON format to {workspace_path}\tmp\analysis\analysis.json
+            - Save images of plots in {workspace_path}\tmp\analysis\plots folder, include them together with a detailed description in the JSON file.
+
             """}
         ],
         temperature=0.7
     )
 
-    # Extract only the Python code between  and  markers
+    # Extract only the Python code between markers
     full_response = response.choices[0].message.content.strip()
     
-    # Find the code between ```···``` markers
+    # Find the code between ```python ... ``` markers
     print(full_response)
     code_match = re.search(r'```python(.*?)```', full_response, re.DOTALL)
     if code_match:
@@ -162,36 +183,15 @@ def generate_analysis_script(folder_structure, proposal, research_area, data_des
     else:
         analysis_script = full_response  # Fallback if no markers found
     
-    # Save the generated script
-    with open("tmp/analysis/analysis.py", "w") as f:
-        f.write(analysis_script)
+    # Clean the script before saving
+    cleaned_script = clean_script(analysis_script)
     
-    return analysis_script
+    # Save the cleaned generated script
+    with open("tmp/analysis/analysis.py", "w") as f:
+        f.write(cleaned_script)
+    
+    return cleaned_script
 
-def parse_analysis_results(analysis_json_path="tmp/analysis/analysis.json"):
-    """
-    Reads and parses the analysis results from the JSON file.
-    Creates the file with empty results if it doesn't exist.
-    """
-    try:
-        with open(analysis_json_path, 'r') as f:
-            results = json.load(f)
-    except FileNotFoundError:
-        # Create default empty structure
-        results = {
-            "test_statistics": {},
-            "p_values": {},
-            "effect_sizes": {},
-            "confidence_intervals": {},
-            "plot_paths": [],
-            "plot_captions": {},
-            "summary_statistics": {}
-        }
-        # Create the file with empty results
-        with open(analysis_json_path, 'w') as f:
-            json.dump(results, f, indent=4)
-            
-    return results
 
 def generate_results_section(analysis_results, proposal):
     """
@@ -233,60 +233,6 @@ def generate_results_section(analysis_results, proposal):
     results_section = response.choices[0].message.content.strip()
     return results_section
 
-def generate_section(proposal, specific_research_area, specific_research_sub_area, relevant_papers, available_tools, section_name, all_sections, max_iterations, previous_sections=None):
-    """
-    Generates and refines a cutting-edge research paper idea in a highly specific research area.
-    """
-    system_prompt = f"""You are a world-renowned expert researcher in {specific_research_area}, specifically {specific_research_sub_area}, with:
-    - Multiple high-impact publications in top-tier journals
-    - Deep understanding of the latest developments and current research gaps
-    - Experience in groundbreaking research projects
-    
-    Write a comprehensive scientific paper section that advances the state-of-the-art research. Your writing will:
-    
-    Present a significant unsolved problem in {specific_research_area}, specifically {specific_research_sub_area}, 
-    incorporating the latest developments from 1995-2024. The research must demonstrate high potential for academic 
-    impact through novel contributions. Provide in-depth technical details and clearly articulated research 
-    methodology.
-
-    Requirements:
-    1. Use proper academic writing style with formal language
-    2. Include relevant citations in IEEE format (Author et al., YYYY)
-    3. Integrate analysis of publicly available datasets and published corpora
-    4. Focus on computational/analytical methods using existing databases
-    5. Avoid any reference to new data collection or human subject research
-    6. Connect ideas logically with smooth transitions between paragraphs
-    7. Support claims with references to peer-reviewed literature
-    8. Maintain academic tone throughout the section
-
-    IMPORTANT: Do not use bullet points, instead write in a flowing narrative style appropriate for a scientific publication.
-    IMPORTANT: Stick to the research objects of the proposal
-    """
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": 
-            f"""
-            This is the research proposal:
-            {proposal}
-            The paper has the following sections: {all_sections}.
-            Here are some papers that can be used:
-            
-            {relevant_papers}
-
-            IMPORTANT: Do not use bullet points, instead write in a flowing narrative style appropriate for a scientific publication. Cite as many of the papers as you can.
-            write ONLY the following section: {section_name}
-            """
-             }
-        ],
-        temperature=0.7,
-        max_tokens=8192  # Adjust this to the maximum your model allows (e.g., 8192 for GPT-4o)
-    )
-    sec = response.choices[0].message.content.strip()
-
-    return sec
-
 def update_analysis_script(error_message, original_script):
     """
     Updates the analysis script based on error messages using LLM guidance.
@@ -319,7 +265,6 @@ def update_analysis_script(error_message, original_script):
             2. Maintains the original analysis objectives
             3. Includes proper error handling
             4. Validates inputs and outputs
-            5. Uses best practices for scientific computing
             """}
         ],
         temperature=0.7
@@ -327,7 +272,7 @@ def update_analysis_script(error_message, original_script):
 
     # Extract updated code
     updated_script = response.choices[0].message.content.strip()
-    code_match = re.search(r'(.*?)', updated_script, re.DOTALL)
+    code_match = re.search(r'```python(.*?)```', updated_script, re.DOTALL)
     if code_match:
         updated_script = code_match.group(1).strip()
     
@@ -336,3 +281,95 @@ def update_analysis_script(error_message, original_script):
         f.write(updated_script)
     
     return updated_script
+
+# Install required packages
+def install_required_packages(script_path):
+    """
+    Detects and installs required packages from a Python script
+    """
+    import subprocess
+    import re
+
+    with open(script_path, 'r') as file:
+        content = file.read()
+
+    # Find import statements using regex
+    import_patterns = [
+        r'^import\s+(\w+)',  # matches: import numpy
+        r'^from\s+(\w+)\s+import',  # matches: from pandas import
+        r'import\s+(\w+)\s+as',  # matches: import numpy as np
+    ]
+
+    # Define packages to skip
+    SKIP_PACKAGES = {'json', 'os'}
+
+    packages = set()
+    for pattern in import_patterns:
+        matches = re.finditer(pattern, content, re.MULTILINE)
+        # Filter out packages that should be skipped
+        packages.update(pkg for pkg in (match.group(1) for match in matches) if pkg not in SKIP_PACKAGES)
+
+    # Install each detected package
+    for package in packages:
+        try:
+            subprocess.run(["pip", "install", package], check=True)
+            print(f"Installed {package}")
+        except subprocess.CalledProcessError as e:
+            print(f"Failed to install {package}: {e}")
+
+def check_and_fix_empty_analysis_json():
+    """
+    Checks if analysis.json is empty and fixes documentation export if needed.
+    if updated returns True, if not False
+    """
+    json_path = "tmp/analysis/analysis.json"
+    script_path = "tmp/analysis/analysis.py"
+    
+    try:
+        with open(json_path, 'r') as f:
+            analysis_data = json.load(f)
+            
+        if not analysis_data or analysis_data == {}:
+            print("Empty analysis JSON detected. Fixing documentation export...")
+            
+            with open(script_path, 'r') as f:
+                analysis_script = f.read()
+            
+            response = client.chat.completions.create(
+                model="gpt-4o",
+                messages=[
+                    {"role": "system", "content": "You are an expert in Python statistical analysis and documentation."},
+                    {"role": "user", "content": f"""
+                    The following analysis script is not properly exporting documentation to analysis.json:
+                    
+                    {analysis_script}
+                    
+                    Modify the script to ensure it:
+                    1. Maintains all existing analysis logic
+                    2. Exports comprehensive documentation about the analysis steps and results to analysis.json
+                    3. Includes descriptions of any visualizations created
+                    4. Documents statistical test results and their interpretation
+                    5. Uses proper JSON structure for the documentation
+                    
+                    The documentation should ONLY be saved to: tmp/analysis/analysis.json
+                    """}
+                ],
+                temperature=0.7
+            )
+            
+            updated_script = response.choices[0].message.content.strip()
+            code_match = re.search(r'(.*?)', updated_script, re.DOTALL)
+            if code_match:
+                updated_script = code_match.group(1).strip()
+            
+            with open(script_path, 'w') as f:
+                f.write(updated_script)
+                
+            print("Analysis script updated with proper JSON documentation export.")
+            return True
+            
+    except Exception as e:
+        print(f"Error checking/fixing analysis JSON: {e}")
+        return False
+
+    return False

@@ -9,9 +9,10 @@ if not openai_api_key:
 # Initialize clients
 client = OpenAI(api_key=openai_api_key)
 
-def generate_section(proposal, specific_research_area, specific_research_sub_area, relevant_papers, available_tools, section_name, all_sections, max_iterations, previous_sections=None):
+def generate_section(proposal, specific_research_area, specific_research_sub_area, relevant_papers, available_tools, section_name, all_sections, previous_sections=None):
     """
     Generates and refines a cutting-edge research paper idea in a highly specific research area.
+    Returns tuple of (section_content, success_status)
     """
     system_prompt = f"""You are a world-renowned expert researcher in {specific_research_area}, specifically {specific_research_sub_area}, with:
     - Multiple high-impact publications in top-tier journals
@@ -27,43 +28,44 @@ def generate_section(proposal, specific_research_area, specific_research_sub_are
 
     Requirements:
     1. Use proper academic writing style with formal language
-    2. Include relevant citations
+    2. Include relevant in-text citations
     3. Integrate analysis of publicly available datasets and published corpora
     4. Focus on computational/analytical methods using existing databases
     5. Avoid any reference to new data collection or human subject research
     6. Connect ideas logically with smooth transitions between paragraphs
-    7. Support claims with references to peer-reviewed literature
-    8. Maintain academic tone throughout the section
+    7. Maintain academic tone throughout the section
 
     IMPORTANT: Do not use bullet points, instead write in a flowing narrative style appropriate for a scientific publication.
     IMPORTANT: Stick to the research objects of the proposal
+    IMPORTANT: If other papers are cited, strictly base the content on the abstract provided.
     """
-    response = client.chat.completions.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": 
-            f"""
-            This is the research proposal:
-            {proposal}
-            The paper has the following sections: {all_sections}.
-            Here are some papers that can be used:
-            
-            {relevant_papers}
+    try:
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": f"""
+                This is the research proposal:
+                {proposal}
+                The paper has the following sections: {all_sections}.
+                Here are some papers that can be used:
+                
+                {relevant_papers}
 
-            IMPORTANT: Do not use bullet points, instead write in a flowing narrative style appropriate for a scientific publication. Cite as many of the papers as you can.
-            write ONLY the following section: {section_name}
-            """
-             }
-        ],
-        temperature=0.7,
-        max_tokens=8192  # Adjust this to the maximum your model allows (e.g., 8192 for GPT-4o)
-    )
-    sec = response.choices[0].message.content.strip()
+                IMPORTANT: Do not use bullet points, instead write in a flowing narrative style appropriate for a scientific publication. Cite as many of the papers as you can.
+                write ONLY the following section: {section_name}
+                """}
+            ],
+            temperature=0.7,
+            max_tokens=8192
+        )
+        section_content = response.choices[0].message.content.strip()
+        return section_content, True
+    except Exception as e:
+        print(f"Error generating section: {str(e)}")
+        return "", False
 
-    return sec
-
-def re_generate_section(field, sub_field, section_name, section_content, results_section, relevant_papers, max_iterations):
+def re_generate_section(field, sub_field, section_name, section_content, results_section, relevant_papers):
     """
     Regenerates paper sections incorporating the results context.
     """
@@ -75,15 +77,15 @@ def re_generate_section(field, sub_field, section_name, section_content, results
     Rewrite the {section_name} section of this scientific paper to align with and reference the results section. Your writing will:
     
     1. Use proper academic writing style with formal language
-    2. Include relevant citations 
+    2. Include relevant in-text citations 
     3. Connect ideas logically with smooth transitions
-    4. Support claims with references to literature
-    5. Maintain academic tone throughout
-    6. Ensure the narrative flows naturally to the results section
-    7. Add forward references to key findings where appropriate
+    4. Maintain academic tone throughout
+    5. Ensure the narrative flows naturally to the results section
+    6. Add forward references to key findings where appropriate
 
     IMPORTANT: Maintain consistency with the findings presented in the results, remove any information that is not covered by the results.
     For example, if the results section does not make use of machine learning models, do not include any references to machine learning models.
+    IMPORTANT: If other papers are cited, strictly base the content on the abstract provided.
     """
 
     response = client.chat.completions.create(
@@ -231,30 +233,59 @@ def generate_title(whole_paper_integrated):
     )
     
     return response.choices[0].message.content.strip()
-
-def generate_final_paper(title, content, journal_name, format_requirements, citation_requirements):
+ 
+def generate_final_paper(title, author_names, content, relevant_papers, journal_name, format_requirements, citation_requirements, absolute_path):
     """
     Generates the final paper following journal-specific formatting requirements.
     """
-    system_prompt = f"""You are an expert academic paper formatter with deep knowledge of academic publishing standards.
-    Format this paper according to the following journal requirements:
-    
-    {format_requirements}
-    
-    Add Bibliography according to the following journal requirements:
-    
-    {citation_requirements}
+    author_markdown_string = "\n".join([f'- "{author}"' for author in author_names])
+    system_prompt = f"""You are an expert academic paper formatter with deep knowledge of academic publishing standards, LaTeX, and Markdown formatting. Your task is to format this research paper following these key requirements:
 
-    Apply these formatting rules while maintaining:
-    1. Proper section organization
-    2. Citation style specified by the journal
-    3. Figure and table placement
-    4. Title page formatting
-    5. Abstract formatting
-    6. Keywords if required
-    7. Word count limits
-    8. Any journal-specific sections or elements
-    """
+1. Structure and Formatting:
+- Use clear section headings with proper Markdown hierarchy (# for title, ## for main sections, ### for subsections)
+- Format equations using LaTeX syntax within Markdown
+- Create properly formatted tables using Markdown syntax
+- Include figure references using the specified absolute path format
+- Ensure consistent paragraph spacing and indentation
+- Maintain proper academic writing style and tone throughout
+
+2. Citations and References:
+- Use [@key] format for in-text citations
+- Place citations before punctuation marks [@key1; @key2]
+- For multiple citations, separate keys with semicolons
+- Ensure every claim is properly supported with relevant citations
+- You DO NOT NEED to include a bibliography section, the citation keys are sufficient
+- End the markdown text with "# Bibliography" for the bibliography section, the actual bibliography will be generated with pandoc
+
+3. Content Organization:
+- Begin with a clear, informative abstract
+- Organize content into logical sections with smooth transitions
+- Use appropriate academic language and terminology
+- Maintain consistent formatting across all sections
+- Include all necessary components (title, abstract, keywords, main sections, in-text-references)
+
+4. Technical Elements:
+- Format code snippets and technical terms appropriately
+- Use consistent notation for mathematical expressions
+- Include properly labeled and referenced figures/tables
+- Ensure all cross-references are correctly formatted
+
+5. Images:
+- Make sure that the images point to {absolute_path}\\tmp\\analysis\\plots\\[IMAGE_NAME]
+
+6. Title, Author, Date and Abstract:
+- Put the following information in the YAML front matter:
+---
+title: {title}
+{author_markdown_string}
+date
+abstract |
+output: pdf_document
+---
+
+IMPORTANT: Be wordy!
+
+Your output should be a complete, well-structured academic paper in Markdown format that meets high academic publishing standards while maintaining readability and professional appearance."""
 
     response = client.chat.completions.create(
         model="gpt-4o",
@@ -266,8 +297,11 @@ def generate_final_paper(title, content, journal_name, format_requirements, cita
             
             Paper Content:
             {content}
-            
-            Please format this paper according to {journal_name}'s requirements while preserving all content and academic integrity.
+
+            ============================================
+
+            Cite papers using citation key of the following references:
+            {relevant_papers}
             """
             }
         ],
@@ -275,4 +309,34 @@ def generate_final_paper(title, content, journal_name, format_requirements, cita
         max_tokens=8192
     )
     
-    return response.choices[0].message.content.strip()
+    pp = remove_markdown_formatting(response.choices[0].message.content.strip())
+    pp = remove_yaml_formatting(pp)
+    return pp
+
+def clear_relevant_papers():
+    """Clears the relevant papers file at startup"""
+    papers_path = "tmp/proposals/relevant_papers.md"
+    with open(papers_path, 'w') as f:
+        f.write("")
+
+# remove ```markdown ... ``` from the generated paper if present
+def remove_markdown_formatting(paper):
+    if paper.startswith("```markdown"):
+        paper = paper[len("```markdown"):]  # remove the initial markdown tag
+    if paper.endswith("```"):
+        paper = paper[:-len("```")]  # remove the final markdown tag    
+    return paper
+
+def remove_yaml_formatting(paper):
+    """
+    Removes only the triple backticks and 'yaml' marker from the input text.
+    
+    Args:
+        text (str): Input text with YAML markers.
+        
+    Returns:
+        str: Text without the YAML markers.
+    """
+    # Remove ```yaml and ```
+    cleaned_text = paper.replace("```yaml", "").replace("```", "")
+    return cleaned_text.strip()

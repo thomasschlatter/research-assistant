@@ -38,7 +38,7 @@ Previous research, such as _The AI Scientist: Towards Fully Automated Open-Ended
 
 "interesting" scientific discovery:
 
-- Takes concepts from one field and applies them in unexpected ways to another (or the data of one field and applies it to another in quantitative studies)
+- Takes concepts from one field and applies them in unexpected ways to other concepts (or the data of one field and applies it to another data in quantitative studies)
 - Reveals hidden patterns across seemingly unrelated domains
 
 **This is arguably very hard for LLMs**

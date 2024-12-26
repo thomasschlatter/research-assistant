@@ -7,5 +7,4 @@ sections = [
     'discussion',               # Interprets and explains the results, including their significance.
     'conclusion',               # Summarizes the main findings and implications.
     'acknowledgments',          # Acknowledges contributors and funding sources.
-    'references',               # Lists all the sources cited in the paper.
 ]

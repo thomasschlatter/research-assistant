@@ -1,1 +1,0 @@
-"Comparative Analysis of Sound Symbolism in Japanese and English Ideophones Using Computational Models"
