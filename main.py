@@ -22,6 +22,8 @@ def main():
     print("==========================")
     print("Scientific Writer Assistant")
     print("==========================")
+    print("\nWARNING: This script will automatically execute commands and install packages.")
+    print("Use at your own risk!\n")
     
     field = FIELD
     sub_field = SUB_FIELD
