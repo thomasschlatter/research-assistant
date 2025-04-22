@@ -2,6 +2,10 @@
 
 Automating the Research Process
 
+# Architecture
+
+![Flowchart](flowchart.drawio.png)
+
 ## Prerequisites
 
 Before running the project, ensure you have the following software installed:
